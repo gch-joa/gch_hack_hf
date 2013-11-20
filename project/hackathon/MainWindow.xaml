@@ -10,6 +10,7 @@
             </Slider>
         </Grid>
         <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1"
+                 SelectionMode="Extended"
                  DockPanel.Dock="Left" Width="200" ItemsSource="{Binding Kantone}">
         </ListBox>
         <Border BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1">
