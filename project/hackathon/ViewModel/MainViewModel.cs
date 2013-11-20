@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
+using System.Windows.Documents;
 
 using hackathon.Annotations;
 using hackathon.data;
@@ -22,13 +23,11 @@ namespace hackathon.ViewModel
 
 		public MainViewModel()
 		{
-			List<Kanton> c = new List<Kanton>
-				{
-					new Kanton("Bern"),
-					new Kanton("Basel Land")
-				};
+			var loader = new Loader();
+			var abstimmung = loader.Load();
 
-			_cantons = new ListCollectionView(c);
+			_cantons = new ListCollectionView(loader.GetKantone().ToList());
+			_cantons.SortDescriptions.Add(new SortDescription());
 		}
 
 		public ICollectionView Kantone
@@ -52,7 +51,7 @@ namespace hackathon.ViewModel
 			set
 			{
 				this._maxYear = value;
-				this.OnPropertyChanged()
+				this.OnPropertyChanged();
 			}
 		}
 
