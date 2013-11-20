@@ -3,8 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Abstimmungs Analyse" Height="350" Width="600">
     <DockPanel>
-        <Slider x:Name="TopSlider" DockPanel.Dock="Top" Height="60" Margin="0,0,0,0" 
-                VerticalContentAlignment="Center"></Slider>
+        <Grid DockPanel.Dock="Top" Height="40" Margin="5,5,5,0">
+            <Slider x:Name="TopSlider"  
+                Minimum="1999" Maximum="2012" TickPlacement="Both" TickFrequency="1" Value="2005" IsSnapToTickEnabled="True"   
+                VerticalContentAlignment="Center">
+            </Slider>
+        </Grid>
         <ListBox x:Name="KantonInfo"  DockPanel.Dock="Left" Width="200"></ListBox>
         <Grid x:Name="InfoPane" DockPanel.Dock="Right">
 
