@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using hackathon.ViewModel;
+
 namespace hackathon.Views
 {
 	/// <summary>
@@ -23,7 +25,7 @@ namespace hackathon.Views
 		public AbstimmungsStatsView()
 		{
 			InitializeComponent();
-			DataContext = new AbstimmungsStatsView();
+			DataContext = new AbstimmungsViewModel();
 		}
 	}
 }
