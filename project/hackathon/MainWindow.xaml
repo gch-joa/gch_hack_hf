@@ -95,10 +95,22 @@
             <TextBlock Grid.Column="2" x:Name="MaxYear" Text="{Binding Maximum, ElementName=TopSlider}"
                        TextAlignment="Center" VerticalAlignment="Center" />
         </Grid>
-        <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1"
-                 SelectionMode="Extended" Margin="10" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
-                 DockPanel.Dock="Left" Width="300" ItemsSource="{Binding Kantone}" SelectedItem="{Binding Kanton, ElementName=DetailInfoPane}">
-        </ListBox>
+       <Border BorderThickness="1" BorderBrush="Gray" Margin="10">
+        <Grid DockPanel.Dock="Left">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Text="kantone" FontSize="40" Grid.Row="0" Margin="5"></TextBlock>
+            <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="0"
+                 SelectionMode="Extended"  ScrollViewer.HorizontalScrollBarVisibility="Hidden" Grid.Row="1"
+                 Width="300" ItemsSource="{Binding Kantone}" SelectedItem="{Binding Kanton, ElementName=DetailInfoPane}">
+            </ListBox>
+
+            </Grid>
+        </Border>
+
         <Border Margin="10" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1">
             <Grid  DockPanel.Dock="Right">
                 <Views:AbstimmungsStatsView x:Name="InfoPane" />
