@@ -21,7 +21,7 @@
                                 <PathGeometry>
                                     <PathFigure IsClosed="True" IsFilled="True" StartPoint="50,50">
                                         <PathSegmentCollection>
-                                            <LineSegment Point="50,0"></LineSegment>
+                                            <LineSegment Point="100,50"></LineSegment>
                                             <ArcSegment IsLargeArc="False" Size="50,50" SweepDirection="Clockwise"
                                                         Point="{Binding AnzahlJaInCoordinates}" ></ArcSegment>
                                         </PathSegmentCollection>
