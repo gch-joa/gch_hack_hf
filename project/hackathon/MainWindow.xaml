@@ -11,8 +11,10 @@
         </Grid>
         <ListBox x:Name="KantonInfo"  DockPanel.Dock="Left" Width="200" ItemsSource="{Binding Kantone}">
         </ListBox>
-        <Grid x:Name="InfoPane" DockPanel.Dock="Right">
+        <Border BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1">
+            <Grid x:Name="InfoPane" DockPanel.Dock="Right">
 
-        </Grid>
+            </Grid>
+        </Border>
     </DockPanel>
 </Window>
