@@ -31,7 +31,7 @@ namespace hackathon.ViewModel
 			this.MinYear = Convert.ToInt16(subList.Min(p => p.Datum).ToString("yyyy"));
 
 			_cantons = new ListCollectionView(loader.GetKantone().ToList());
-			_cantons.SortDescriptions.Add(new SortDescription());
+			_cantons.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));
 		}
 
 		public ICollectionView Kantone
