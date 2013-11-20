@@ -7,7 +7,7 @@
         <Style TargetType="{x:Type ListBox}">
             <Style.Resources>
                 <DataTemplate DataType="{x:Type data:Kanton}">
-                    <Border BorderThickness="0,0,0,0.5" BorderBrush="Gray" >
+                    <Border BorderThickness="0,0,0,0.1" BorderBrush="Gray" >
                     <Grid x:Name="DataGrid" RenderTransformOrigin="0.5,0.5" Width="{Binding Width, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListBox}}}">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="50" />
@@ -89,7 +89,7 @@
                        VerticalAlignment="Center" />
             <Slider x:Name="TopSlider" Grid.Column="1"
                     Minimum="{Binding MinYear}" Maximum="{Binding MaxYear}" TickPlacement="BottomRight"
-                    TickFrequency="10" IsSnapToTickEnabled="True"
+                    TickFrequency="1" IsSnapToTickEnabled="True"
                     VerticalContentAlignment="Center">
             </Slider>
             <TextBlock Grid.Column="2" x:Name="MaxYear" Text="{Binding Maximum, ElementName=TopSlider}"
