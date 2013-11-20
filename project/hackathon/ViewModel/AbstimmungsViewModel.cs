@@ -17,6 +17,8 @@ namespace hackathon.ViewModel
 
 		private List<AbstimmungsStats> _stats = new List<AbstimmungsStats>();
 
+		private Kanton _aktivKanton;
+
 		public AbstimmungsViewModel()
 		{
 			var test01 = new Abstimmung(AbstimmungTyp.Initiativ, "test01", 1, DateTime.Now, 1000, 800, 100, 50, 500);
@@ -40,18 +42,33 @@ namespace hackathon.ViewModel
 			test03.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 100);
 			this._abstimmung.Add(test03);
 
+			this._aktivKanton = new Kanton("Bern", "BE");
 			this.CaclStats();
 			Statistics = new CollectionView(this._stats);
+		}
+
+		public Kanton AktivKanton
+		{
+			get
+			{
+				return this._aktivKanton;
+			}
+			set
+			{
+				this._aktivKanton = value;
+				this.CaclStats();
+			}
 		}
 
 		public ICollectionView Statistics { get; private set; }
 
 		private void CaclStats()
 		{
+
 			foreach (var ab in this._abstimmung)
 			{
 				AbstimmungsStats stat = new AbstimmungsStats();
-				stat.AnzahlJa = ab.KantonJaStimmen.Average(p => p.Value);
+				stat.AnzahlJa = ab.KantonJaStimmen.Where(i => i.Key.Equals(this._aktivKanton)).Average(p => p.Value);
 				stat.AnzahlNein = 100 - stat.AnzahlJa;
 				this._stats.Add(stat);
 				
