@@ -17,14 +17,18 @@ namespace hackathon.ViewModel
 	{
 		private ICollectionView _cantons;
 
-		private string _minYear;
+		private int _minYear;
 
-		private string _maxYear;
+		private int _maxYear;
 
 		public MainViewModel()
 		{
 			var loader = new Loader();
-			var abstimmung = loader.Load();
+			IList<Abstimmung> abstimmung = loader.Load();
+
+			var subList = abstimmung.Where(i => i.KantonJaStimmen.Count > 0);
+			this.MaxYear = Convert.ToInt16(subList.Max(p => p.Datum).ToString("yyyy"));
+			this.MinYear = Convert.ToInt16(subList.Min(p => p.Datum).ToString("yyyy"));
 
 			_cantons = new ListCollectionView(loader.GetKantone().ToList());
 			_cantons.SortDescriptions.Add(new SortDescription());
@@ -42,20 +46,20 @@ namespace hackathon.ViewModel
 			}
 		}
 
-		public string MaxYear
+		public int MaxYear
 		{
 			get
 			{
 				return this._maxYear;
 			}
-			set
+			private set
 			{
 				this._maxYear = value;
 				this.OnPropertyChanged();
 			}
 		}
 
-		public string MinYear
+		public int MinYear
 		{
 			get
 			{

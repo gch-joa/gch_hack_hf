@@ -9,10 +9,12 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition Width="50"></ColumnDefinition>
             </Grid.ColumnDefinitions>
+            <TextBlock x:Name="MinYear" Text="{Binding Minimum, ElementName=TopSlider}" TextAlignment="Center" VerticalAlignment="Center"/>
             <Slider x:Name="TopSlider"  Grid.Column="1"
-                Minimum="{Binding MinYear}" Maximum="{Binding MayYear}" TickPlacement="Both" TickFrequency="1" Value="2005" IsSnapToTickEnabled="True"   
-                VerticalContentAlignment="Center">
+                Minimum="{Binding MinYear}" Maximum="{Binding MaxYear}" TickPlacement="BottomRight" TickFrequency="10" IsSnapToTickEnabled="True"   
+                VerticalContentAlignment="Center" >
             </Slider>
+            <TextBlock Grid.Column="2" x:Name="MaxYear" Text="{Binding Maximum, ElementName=TopSlider}" TextAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
         <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1"
                  SelectionMode="Extended"
