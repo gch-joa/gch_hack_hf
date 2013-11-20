@@ -59,6 +59,7 @@ namespace hackathon.data
         Obligatorisch,
         Fakultativ,
         Initiativ,
-        Gegenentwurf
+        Gegenentwurf,
+        Unknown
     }
 }

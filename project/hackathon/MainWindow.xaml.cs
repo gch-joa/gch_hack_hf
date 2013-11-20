@@ -23,6 +23,7 @@ namespace hackathon
         public MainWindow()
         {
             InitializeComponent();
+            new Loader().Load();
         }
     }
 }
