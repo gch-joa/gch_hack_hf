@@ -11,7 +11,7 @@ namespace hackathon
 {
     public class Loader
     {
-        private readonly IList<string> _kantone= new List<string>();
+        private readonly IList<Kanton> _kantone= new List<Kanton>();
 
         public IList<Abstimmung> Load()
         {
@@ -45,16 +45,17 @@ namespace hackathon
                 }
                 else
                 {
-                    if (!_kantone.Contains(line[0]))
+                    var currentKanton = new Kanton(line[0]);
+                    if (!_kantone.Contains(currentKanton))
                     {
-                        _kantone.Add(line[0]);
+                        _kantone.Add(currentKanton);
                     }
                     for (int i = 1; i < nummern.Count(); i++)
                     {
                         var s = nummern[i];
                         try
                         {
-                            abstimmunglist[int.Parse(s)].KantonJaStimmen.Add(line[0], double.Parse(line[i]));
+                            abstimmunglist[int.Parse(s)].KantonJaStimmen.Add(currentKanton, double.Parse(line[i]));
                         }
                         catch
                         {
@@ -67,7 +68,7 @@ namespace hackathon
             return abstimmunglist.Values.ToList();
         }
 
-        public IList<string> GetKantone()
+        public IList<Kanton> GetKantone()
         {
             return _kantone;
         }
