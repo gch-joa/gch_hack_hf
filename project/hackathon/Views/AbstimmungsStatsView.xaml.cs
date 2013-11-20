@@ -22,6 +22,8 @@ namespace hackathon.Views
 	/// </summary>
 	public partial class AbstimmungsStatsView : UserControl
 	{
+		public DependencyProperty Kantone;
+
 		public AbstimmungsStatsView()
 		{
 			InitializeComponent();

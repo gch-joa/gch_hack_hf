@@ -97,11 +97,11 @@
         </Grid>
         <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1"
                  SelectionMode="Extended" Margin="10" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
-                 DockPanel.Dock="Left" Width="300" ItemsSource="{Binding Kantone}">
+                 DockPanel.Dock="Left" Width="300" ItemsSource="{Binding Kantone}" SelectedItem="{Binding Kanton, ElementName=DetailInfoPane}">
         </ListBox>
         <Border Margin="10" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1">
-            <Grid x:Name="InfoPane" DockPanel.Dock="Right">
-                <Views:AbstimmungsStatsView />
+            <Grid  DockPanel.Dock="Right">
+                <Views:AbstimmungsStatsView x:Name="InfoPane" />
             </Grid>
         </Border>
     </DockPanel>
