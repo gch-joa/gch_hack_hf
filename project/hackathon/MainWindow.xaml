@@ -9,7 +9,8 @@
                 VerticalContentAlignment="Center">
             </Slider>
         </Grid>
-        <ListBox x:Name="KantonInfo"  DockPanel.Dock="Left" Width="200"></ListBox>
+        <ListBox x:Name="KantonInfo"  DockPanel.Dock="Left" Width="200" ItemsSource="{Binding Kantone}">
+        </ListBox>
         <Grid x:Name="InfoPane" DockPanel.Dock="Right">
 
         </Grid>

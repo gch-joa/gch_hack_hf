@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using hackathon.ViewModel;
+
 namespace hackathon
 {
     /// <summary>
@@ -24,6 +26,7 @@ namespace hackathon
         {
             InitializeComponent();
             new Loader().Load();
+	        DataContext = new MainViewModel();
         }
     }
 }
