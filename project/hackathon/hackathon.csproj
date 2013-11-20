@@ -64,7 +64,6 @@
     <Compile Include="data\Abstimmung.cs" />
     <Compile Include="data\Event.cs" />
     <Compile Include="data\Jahr.cs" />
-    <Compile Include="data\Kanton.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

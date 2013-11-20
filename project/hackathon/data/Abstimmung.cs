@@ -17,6 +17,8 @@ namespace hackathon.data
             Leerstimmen = leerstimmen;
             Ungueltig = ungueltig;
             JaStimmen = jastimmen;
+
+            KantonJaStimmen = new Dictionary<string, double>();
         }
 
         public AbstimmungTyp Typ { get; private set; }
@@ -51,7 +53,7 @@ namespace hackathon.data
             get { return JaStimmen > NeinStimmen; }
         }
 
-        public IDictionary<Kanton, int> KantonJaStimmen { get; set; }
+        public IDictionary<string, double> KantonJaStimmen { get; set; }
     }
 
     public enum AbstimmungTyp

@@ -11,12 +11,14 @@ namespace hackathon
 {
     public class Loader
     {
-        public IEnumerable<Jahr> Load()
+        private readonly IList<string> _kantone= new List<string>();
+
+        public IList<Abstimmung> Load()
         {
             var abstimmungen = parseCSV("data/abstimmungen.csv");
             var kantonwerte = parseCSV("data/jastimmen.csv");
 
-            var abstimmunglist = new List<Abstimmung>();
+            var abstimmunglist = new Dictionary<int, Abstimmung>();
             foreach (var line in abstimmungen)
             {
                 try
@@ -26,9 +28,7 @@ namespace hackathon
                                               int.Parse(line[8]),
                                               int.Parse(line[9]));
 
-                    abstimmunglist.Add(abst);
-
-
+                    abstimmunglist.Add(int.Parse(line[0]), abst);
                 }
                 catch
                 {
@@ -36,7 +36,40 @@ namespace hackathon
                 }
             }
 
-            return null;
+            string[] nummern = new string[kantonwerte[0].Count()];
+            foreach (var line in kantonwerte)
+            {
+                if (line[0].Equals("Kanton"))
+                {
+                    nummern = line;
+                }
+                else
+                {
+                    if (!_kantone.Contains(line[0]))
+                    {
+                        _kantone.Add(line[0]);
+                    }
+                    for (int i = 1; i < nummern.Count(); i++)
+                    {
+                        var s = nummern[i];
+                        try
+                        {
+                            abstimmunglist[int.Parse(s)].KantonJaStimmen.Add(line[0], double.Parse(line[i]));
+                        }
+                        catch
+                        {
+                            // ignore
+                        }
+                    }
+                }
+            }
+
+            return abstimmunglist.Values.ToList();
+        }
+
+        public IList<string> GetKantone()
+        {
+            return _kantone;
         }
 
         private DateTime MakeDatum(string s)
