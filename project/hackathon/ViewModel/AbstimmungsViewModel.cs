@@ -33,9 +33,9 @@ namespace hackathon.ViewModel
 		{
 			this._abstimmung = new Abstimmung(AbstimmungTyp.Initiativ, "test", 1, DateTime.Now, 1000, 800, 100, 50, 500);
 			this._abstimmung.KantonJaStimmen = new Dictionary<Kanton, double>();
-			this._abstimmung.KantonJaStimmen.Add(new Kanton("Bern"), 30);
-			this._abstimmung.KantonJaStimmen.Add(new Kanton("Zürich"), 34);
-			this._abstimmung.KantonJaStimmen.Add(new Kanton("Aarau"), 65.3);
+			this._abstimmung.KantonJaStimmen.Add(new Kanton("Bern","BE"), 30);
+			this._abstimmung.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 34);
+			this._abstimmung.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 65.3);
 
 		}
 
