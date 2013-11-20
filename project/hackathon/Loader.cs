@@ -45,12 +45,12 @@ namespace hackathon
                 }
                 else
                 {
-                    var currentKanton = new Kanton(line[0]);
+                    var currentKanton = new Kanton(line[0],line[1]);
                     if (!_kantone.Contains(currentKanton))
                     {
                         _kantone.Add(currentKanton);
                     }
-                    for (int i = 1; i < nummern.Count(); i++)
+                    for (int i = 2; i < nummern.Count(); i++)
                     {
                         var s = nummern[i];
                         try

@@ -110,8 +110,18 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="data\wappen\be.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\wappen\bl.png" />
+    <Resource Include="data\wappen\bs.png" />
+    <Resource Include="data\wappen\sg.png" />
+    <Resource Include="data\wappen\so.png" />
+    <Resource Include="data\wappen\sz.png" />
+    <Resource Include="data\wappen\ur.png" />
+    <Resource Include="data\wappen\zh.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

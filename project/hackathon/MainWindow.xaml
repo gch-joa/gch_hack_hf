@@ -6,7 +6,15 @@
     <Style TargetType="{x:Type ListBox}">
         <Style.Resources>
             <DataTemplate DataType="{x:Type data:Kanton}">
-                <TextBlock Margin="10" Text="{Binding Name}"></TextBlock>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Margin="10" Stretch="Uniform" Height="30"  Source="{Binding WappenUrl}"></Image>
+                        <TextBlock Grid.Column="1" FontSize="20" Margin="10" Text="{Binding Name}"></TextBlock>
+                    </Grid>
+                
             </DataTemplate>
         </Style.Resources>
     </Style>
@@ -27,7 +35,7 @@
         </Grid>
         <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1"
                  SelectionMode="Extended" Margin ="10"
-                 DockPanel.Dock="Left" Width="200" ItemsSource="{Binding Kantone}">
+                 DockPanel.Dock="Left" Width="300" ItemsSource="{Binding Kantone}">
         </ListBox>
         <Border Margin="10" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1">
             <Grid x:Name="InfoPane" DockPanel.Dock="Right">
