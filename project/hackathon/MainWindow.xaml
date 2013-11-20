@@ -4,6 +4,7 @@
         xmlns:Views="clr-namespace:hackathon.Views"
         Title="Abstimmungs Analyse" Height="500" Width="800">
     <Window.Resources>
+<<<<<<< HEAD
     <Style TargetType="{x:Type ListBox}">
         <Style.Resources>
             <DataTemplate DataType="{x:Type data:Kanton}">
@@ -13,13 +14,61 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Image Grid.Column="0" Margin="10" Stretch="Uniform" Height="30"  Source="{Binding WappenUrl}"></Image>
+=======
+        <Style TargetType="{x:Type ListBox}">
+            <Style.Resources>
+                <DataTemplate DataType="{x:Type data:Kanton}">
+                    <Grid x:Name="DataGrid">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image x:Name="WappenImage" Grid.Column="0" Margin="10" Stretch="Uniform" Height="30"
+                               Source="{Binding WappenUrl}" RenderOptions.BitmapScalingMode="HighQuality" />
+>>>>>>> c292078d82fab76f4e55a269c39b6e097aacf83d
                         <TextBlock Grid.Column="1" FontSize="20" Margin="10" Text="{Binding Name}"></TextBlock>
+                        <Grid.RenderTransform>
+                            <ScaleTransform ScaleX="1.0" ScaleY="1.0"></ScaleTransform>
+                        </Grid.RenderTransform>
                     </Grid>
+<<<<<<< HEAD
                 
             </DataTemplate>
         </Style.Resources>
     </Style>
         </Window.Resources>
+=======
+                    <DataTemplate.Triggers>
+                        <EventTrigger RoutedEvent="Mouse.MouseEnter">
+                            <BeginStoryboard>
+                                <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleX">
+                                    <DoubleAnimation To="1.15" Duration="0:0:0.2" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                            <BeginStoryboard>
+                            <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleY">
+                                    <DoubleAnimation To="1.15" Duration="0:0:0.2" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="Mouse.MouseLeave">
+                            <BeginStoryboard>
+                                <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleX">
+                                    <DoubleAnimation To="1.0" Duration="0:0:0.2" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                            <BeginStoryboard>
+                                <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleY">
+                                    <DoubleAnimation To="1.0" Duration="0:0:0.2" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </DataTemplate.Triggers>
+                </DataTemplate>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+>>>>>>> c292078d82fab76f4e55a269c39b6e097aacf83d
     <DockPanel>
         <Grid DockPanel.Dock="Top" Height="40" Margin="5,5,5,0">
             <Grid.ColumnDefinitions>
