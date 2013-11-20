@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Windows;
 using System.Windows.Data;
 
 using hackathon.Annotations;
@@ -20,9 +21,9 @@ namespace hackathon.ViewModel
 		{
 			var test01 = new Abstimmung(AbstimmungTyp.Initiativ, "test01", 1, DateTime.Now, 1000, 800, 100, 50, 500);
 			test01.KantonJaStimmen = new Dictionary<Kanton, double>();
-			test01.KantonJaStimmen.Add(new Kanton("Bern", "BE"), 30);
-			test01.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 34);
-			test01.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 65.3);
+			test01.KantonJaStimmen.Add(new Kanton("Bern", "BE"), 4);
+			test01.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 16);
+			test01.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 15.3);
 			this._abstimmung.Add(test01);
 
 			var test02= new Abstimmung(AbstimmungTyp.Initiativ, "test02", 1, DateTime.Now, 1000, 800, 100, 50, 500);
@@ -31,6 +32,13 @@ namespace hackathon.ViewModel
 			test02.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 87);
 			test02.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 34);
 			this._abstimmung.Add(test02);
+
+			var test03 = new Abstimmung(AbstimmungTyp.Initiativ, "test02", 1, DateTime.Now, 1000, 800, 100, 50, 500);
+			test03.KantonJaStimmen = new Dictionary<Kanton, double>();
+			test03.KantonJaStimmen.Add(new Kanton("Bern", "BE"), 100);
+			test03.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 87);
+			test03.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 100);
+			this._abstimmung.Add(test03);
 
 			this.CaclStats();
 			Statistics = new CollectionView(this._stats);
@@ -90,6 +98,18 @@ namespace hackathon.ViewModel
 			set
 			{
 				this._anzahlJa = value;
+			}
+		}
+
+		public Point AnzahlJaInCoordinates
+		{
+			get
+			{
+				double angle = 90 - 3.60 * this._anzahlJa;
+				double x = 50 + 50 * Math.Cos(angle);
+				double y = 50 + 50 * Math.Sign(angle);
+
+				return new Point(x, y);
 			}
 		}
 	}
