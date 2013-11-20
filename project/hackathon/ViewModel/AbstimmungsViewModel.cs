@@ -105,7 +105,7 @@ namespace hackathon.ViewModel
 		{
 			get
 			{
-				double angle = 90 - 3.60 * this._anzahlJa;
+				double angle = 360 * (this._anzahlJa / 100);
 				double x = 50 + 50 * Math.Cos(angle);
 				double y = 50 + 50 * Math.Sign(angle);
 
