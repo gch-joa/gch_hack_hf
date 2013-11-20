@@ -1,0 +1,540 @@
+Nummer;Datum;Description;Art;Stimmberechtigte;Stimmen;Beteiligung;Leer;Ungueltig;Gueltig;Ja;Nein
+559;11.03.2012;Bundesgesetz über die Buchpreisbindung;Fak.;5139057;2308807;44.92666651;96702;11250;2200855;966633;1234222
+560;17.06.2012;Volksinitiative «Eigene vier Wände dank Bausparen»;I.;5149475;1987328;38.59282742;44095;8945;1934288;601449;1332839
+561;17.06.2012;Volksinitiative «Für die Stärkung der Volksrechte in der Aussenpolitik (Staatsverträge vors Volk!)»;I.;5149475;1987001;38.58647726;35344;8825;1942832;480173;1462659
+562;17.06.2012;Änderung des Bundesgesetzes über die Krankenversicherung (Managed Care);Fak.;5149475;1993546;38.7135776;35211;8806;1949529;466862;1482667
+563;23.09.2012;Bundesbeschluss über die Jugendmusikförderung;Obl.;5160331;2192799;42.49337882;46630;10893;2135276;1552045;583231
+564;23.09.2012;Volksinitiative «Sicheres Wohnen im Alter»;I.;5160331;2198809;42.60984421;48172;11126;2139511;1014016;1125495
+565;23.09.2012;Volksinitiative «Schutz vor Passivrauchen»;I.;5160331;2213551;42.89552356;23580;10781;2179190;741205;1437985
+566;25.11.2012;Änderung des Tierseuchengesetzes (TSG);Fak.;5166973;1428855;27.65361847;35888;7263;1385704;946220;439484
+567;03.03.2013;Bundesbeschluss über die Familienpolitik;Obl.;5174961;2412095;46.61088267;42998;6615;2362482;1283951;1078531
+568;03.03.2013;Volksinitiative «gegen die Abzockerei»;I.;5174961;2418825;46.74093196;34173;6493;2378159;1616184;761975
+569;03.03.2013;Bundesgesetz über die Raumplanung;Fak.;5174961;2406787;46.50831185;51840;6491;2348456;1476942;871514
+570;09.06.2013;Volksinitiative «Volkswahl des Bundesrates»;I.;5184334;2048664;39.51643548;12777;5516;2030371;480291;1550080
+571;09.06.2013;Asylgesetz (AsylG) (Dringliche Änderungen des Asylgesetzes);Fak.;5184334;2044092;39.42824671;33033;5878;2005181;1573007;432174
+480;02.12.2001;Bundesbeschluss über eine Schuldenbremse;Obl.;4712583;1782381;37.82174234;38522;6510;1737349;1472259;265090
+481;02.12.2001;Volksinitiative «für eine gesicherte AHV - Energie statt Arbeit besteuern!»;I.;4712583;1783507;37.84563582;37319;6440;1739748;397747;1342001
+482;02.12.2001;Volksinitiative «für eine glaubwürdige Sicherheitspolitik und eine Schweiz ohne Armee»;I.;4712583;1787298;37.92608003;23609;6364;1757325;384905;1372420
+483;02.12.2001;Volksinitiative «Solidarität schafft Sicherheit: Für einen freiwilligen zivilen Friedensdienst (ZFD)»;I.;4712583;1783860;37.85312641;33323;6446;1744091;404870;1339221
+484;02.12.2001;Volksinitiative «für eine Kapitalgewinnsteuer»;I.;4712583;1783571;37.84699389;33048;6414;1744109;594927;1149182
+485;03.03.2002;Volksinitiative «für den Beitritt der Schweiz zur Organisation der Vereinten Nationen (UNO)»;I.;4721422;2758925;58.43419631;20386;11800;2726739;1489110;1237629
+486;03.03.2002;Volksinitiative «für eine kürzere Arbeitszeit»;I.;4721422;2750779;58.26166354;30981;11665;2708133;686935;2021198
+487;02.06.2002;Schweizerisches Strafgesetzbuch (Schwangerschaftsabbruch, Fristenregelung);Fak.;4730594;1978123;41.81553099;30008;8465;1939650;1399545;540105
+488;02.06.2002;Volksinitiative «für Mutter und Kind - für den Schutz des ungeborenen Kindes und für die Hilfe an seine Mutter in Not»;I.;4730594;1972596;41.69869577;32912;8382;1931302;352432;1578870
+489;22.09.2002;Volksinitiative «Überschüssige Goldreserven in den AHV-Fonds»;I.;4744197;2143027;45.17154326;10997;9663;2122367;984058;1085072
+490;22.09.2002;Elektrizitätsmarktgesetz;Fak.;4744197;2125214;44.79607402;62974;11058;2051182;972770;1078412
+491;24.11.2002;Volksinitiative «gegen Asylrechtsmissbrauch»;I.;4749994;2276582;47.92810265;23749;9941;2242892;1119342;1123550
+492;24.11.2002;Bundesgesetz über die obligatorische Arbeitslosenversicherung und die Insolvenzentschädigung;Fak.;4749994;2262121;47.62366016;50879;10019;2201223;1234793;966430
+493;09.02.2003;Bundesbeschluss über die Änderung der Volksrechte;Obl.;4755703;1365517;28.71325228;31216;6658;1327643;934005;393638
+494;09.02.2003;Bundesgesetz über die Anpassung der kantonalen Beiträge an Spitalbehandlungen;Fak.;4755703;1365354;28.70982481;28735;6818;1329801;1028673;301128
+495;18.05.2003;Bundesgesetz über die Armee und die Militärverwaltung (Armee XXI);Fak.;4764659;2361382;49.56035679;90232;11121;2260029;1718452;541577
+496;18.05.2003;Bundesgesetz über den Bevölkerungsschutz und den Zivilschutz;Fak.;4764659;2358877;49.50778219;77179;10861;2270837;1829339;441498
+497;18.05.2003;Volksinitiative «Ja zu fairen Mieten»;I.;4764659;2362517;49.58417801;61997;10731;2289789;749388;1540401
+498;18.05.2003;Volksinitiative «für einen autofreien Sonntag pro Jahreszeit - ein Versuch für vier Jahre»;I.;4764659;2373187;49.80811848;20247;10193;2342747;881953;1460794
+499;18.05.2003;Volksinitiative «Gesundheit muss bezahlbar bleiben»;I.;4764659;2367157;49.68156168;48813;10577;2307767;625073;1682694
+500;18.05.2003;Volksinitiative «Gleiche Rechte für Behinderte»;I.;4764659;2367883;49.69679887;47178;10563;2310142;870249;1439893
+501;18.05.2003;Volksinitiative «Strom ohne Atom - Für eine Energiewende und die schrittweise Stilllegung der Atomkraftwerke»;I.;4764659;2369102;49.72238307;34412;10538;2324152;783586;1540566
+502;18.05.2003;Volksinitiative «MoratoriumPlus - Für die Verlängerung des Atomkraftwerk-Baustopps und die Begrenzung des Atomrisikos»;I.;4764659;2363075;49.59588923;54914;10864;2297297;955624;1341673
+503;18.05.2003;Volksinitiative «für ein ausreichendes Berufsbildungsangebot»;I.;4764659;2361583;49.56457535;63596;10731;2287256;722931;1564325
+504;08.02.2004;Gegenentwurf zur Volksinitiative «Avanti – für sichere und leistungsfähige Autobahnen»;Obl.;4788961;2183037;45.58477298;22991;7914;2152132;800632;1351500
+505;08.02.2004;Obligationenrecht (Miete). Änderung;Fak.;4788961;2175425;45.4258241;64015;8391;2103019;755561;1347458
+506;08.02.2004;Volksinitiative «Lebenslange Verwahrung für nicht therapierbare, extrem gefährliche Sexual- und Gewaltstraftäter»;I.;4788961;2180863;45.53937691;39124;8303;2133436;1198867;934569
+507;16.05.2004;Bundesgesetz über die Alters- und Hinterlassenenversicherung (11. AHV-Revision);Fak.;4798197;2438405;50.81919313;20747;10313;2407345;772773;1634572
+508;16.05.2004;Bundesbeschluss über die Finanzierung der AHV/IV durch Anhebung der Mehrwertsteuersätze;Obl.;4798197;2439301;50.83786681;21035;10369;2407897;756550;1651347
+509;16.05.2004;Bundesgesetz über die Änderung von Erlassen im Bereich der Ehe- und Familienbesteuerung, der Wohneigentumsbesteuerung und der Stempelabgaben;Fak.;4798197;2439677;50.84570308;21902;10390;2407385;821475;1585910
+510;26.09.2004;Bundesbeschluss über die ordentliche Einbürgerung sowie über die erleichterte Einbürgerung junger Ausländerinnen und Ausländer der zweiten Generation;Obl.;4814035;2591426;53.83064311;20188;12256;2558982;1106529;1452453
+511;26.09.2004;Bundesbeschluss über den Bürgerrechtserwerb von Ausländerinnen und Ausländern der dritten Generation;Obl.;4814035;2591968;53.84190186;18214;12255;2561499;1238912;1322587
+512;26.09.2004;Volksinitiative 'Postdienst für alle';I.;4814035;2577679;53.54508224;58197;12597;2506885;1247771;1259114
+513;26.09.2004;Bundesgesetz über die Erwerbsersatzordnung für Dienstleistende in Armee, Zivildienst und Zivilschutz (Erwerbsersatzgesetz, EOG);Fak.;4814035;2590724;53.81606075;22600;12385;2555739;1417159;1138580
+514;28.11.2004;Bundesbeschluss zur Neugestaltung des Finanzausgleichs und der Aufgabenteilung zwischen Bund und Kantonen (NFA);Obl.;4819855;1776714;36.86239524;52754;8064;1715896;1104565;611331
+515;28.11.2004;Bundesbeschluss über eine neue Finanzordnung;Obl.;4819855;1775770;36.84280959;61974;8239;1705557;1258895;446662
+516;28.11.2004;Bundesgesetz über die Forschung an embryonalen Stammzellen;Fak.;4819855;1785215;37.03876984;35058;7921;1742236;1156706;585530
+517;05.06.2005;Bundesbeschluss über die Genehmigung und die Umsetzung der bilateralen Abkommen zwischen der Schweiz und der EU über die Assoziierung an Schengen und Dublin;Fak.;4836712;2745267;56.75895112;25255;15710;2704302;1477260;1227042
+518;05.06.2005;Bundesgesetz über die eingetragene Partnerschaft gleichgeschlechtlicher Paare (Partnerschaftsgesetz, PartG);Fak.;4836712;2739380;56.63723621;36110;15902;2687368;1559848;1127520
+519;25.09.2005;Bundesbeschluss über die Ausdehnung des Personenfreizügigkeitsabkommens auf die neuen EU-Staaten und über die Revision der flankierenden Massnahmen;Fak.;4852272;2640930;54.42666858;18569;16535;2605826;1458686;1147140
+520;27.11.2005;Volksinitiative «für Lebensmittel aus gentechnikfreier Landwirtschaft»;I.;4859437;2056706;42.32395646;23046;11343;2022317;1125835;896482
+521;27.11.2005;Arbeitsgesetz (Ladenöffnungszeiten in Zentren des öffentlichen Verkehrs);Fak.;4859437;2060082;42.39342953;18281;11068;2030733;1026833;1003900
+522;21.05.2006;Bundesbeschluss über die Neuordnung der Verfassungsbestimmungen zur Bildung;Obl.;4877742;1359250;27.86637752;21941;8193;1329116;1137450;191666
+523;24.09.2006;Volksinitiative «Nationalbankgewinne für die AHV»;I.;4893738;2392149;48.88183634;43402;15402;2333345;973831;1359514
+524;24.09.2006;Bundesgesetz über die Ausländerinnen und Ausländer;Fak.;4893738;2400100;49.04430928;27528;15319;2357253;1602134;755119
+525;24.09.2006;Änderung des Asylgesetzes;Fak.;4893738;2400407;49.0505826;26028;15193;2359186;1598552;760634
+526;26.11.2006;Bundesgesetz über die Zusammenarbeit mit den Staaten Osteuropas;Fak.;4902608;2211880;45.11639519;28926;14270;2168684;1158494;1010190
+527;26.11.2006;Bundesgesetz über die Familienzulagen;Fak.;4902608;2213091;45.14109633;20850;14030;2178211;1480796;697415
+528;11.03.2007;Volksinitiative «Für eine soziale Einheitskrankenkasse»;I.;4914448;2264742;46.08334446;16993;15619;2232130;641917;1590213
+529;17.06.2007;Bundesgesetz über die Invalidenversicherung;Fak.;4929139;1789115;36.29670415;19618;10587;1758910;1039282;719628
+530;24.02.2008;Volksinitiative «Gegen Kampfjetlärm in Tourismusgebieten»;I.;4957778;1925291;38.8337477;31490;10624;1883177;601070;1282107
+531;24.02.2008;Bundesgesetz über die Verbesserung der steuerlichen Rahmenbedingungen für unternehmerische Tätigkeiten und Investitionen;Fak.;4957778;1919323;38.71337119;50745;10846;1857732;938742;918990
+532;01.06.2008;Volksinitiative «Für demokratische Einbürgerungen»;I.;4969834;2251493;45.30318316;18803;12718;2219972;804728;1415244
+533;01.06.2008;Volksinitiative «Volkssouveränität statt Behördenpropaganda»;I.;4969834;2235043;44.97218619;49202;12724;2173117;538926;1634191
+534;01.06.2008;Verfassungsartikel «Für Qualität und Wirtschaftlichkeit in der Krankenversicherung»;Obl.;4969834;2233018;44.93144037;53247;12764;2167007;661310;1505697
+535;30.11.2008;Volksinitiative «für die Unverjährbarkeit pornografischer Straftaten an Kindern»;I.;4993100;2379892;47.66361579;40912;13538;2325442;1206323;1119119
+536;30.11.2008;Volksinitiative «für ein flexibles AHV-Alter»;I.;4993100;2385811;47.78215938;27686;13306;2344819;970221;1374598
+537;30.11.2008;Volksinitiative «Verbandsbeschwerderecht: Schluss mit der Verhinderungspolitik - Mehr Wachstum für die Schweiz!»;I.;4993100;2364691;47.35917566;75453;14005;2275233;773467;1501766
+538;30.11.2008;Volksinitiative «für eine vernünftige Hanf-Politik mit wirksamem Jugendschutz»;I.;4993100;2370946;47.48444854;52198;13863;2304885;846985;1457900
+539;30.11.2008;Bundesgesetz über die Betäubungsmittel und psychotropen Stoffe;Fak.;4993100;2360873;47.28271014;82003;13950;2264920;1541928;722992
+540;08.02.2009;Bundesbeschluss über die Genehmigung der Weiterführung des Freizügigkeitsabkommens zwischen der Schweiz und der Europäischen Gemeinschaft sowie über die Genehmigung des Protokolls über die Ausdehnung des Abkommens auf Bulgarien und Rumänien;Fak.;4999664;2578848;51.5804262;18897;14920;2545031;1517132;1027899
+541;17.05.2009;Verfassungsartikel «Zukunft mit Komplementärmedizin» (Gegenentwurf zur Volksinitiative «Ja zur Komplementärmedizin»);Obl.;5011176;1948829;38.88965385;23413;9963;1915453;1283893;631560
+542;17.05.2009;Bundesbeschluss über die Genehmigung und Umsetzung des Notenaustauschs zwischen der Schweiz und der Europäischen Gemeinschaft betreffend die Übernahme der Verordnung über biometrische Pässe und Reisedokumente;Fak.;5011176;1947434;38.86181607;36473;10296;1900665;953173;947492
+543;27.09.2009;Bundesbeschluss über eine befristete Zusatzfinanzierung der Invalidenversicherung durch Anhebung der Mehrwertsteuersätze;Obl.;5030938;2067328;41.0922973;17630;10150;2039548;1112818;926730
+544;27.09.2009;Bundesbeschluss über den Verzicht auf die Einführung der allgemeinen Volksinitiative;Obl.;5030938;2038169;40.5127036;100726;11542;1925901;1307237;618664
+545;29.11.2009;Bundesbeschluss zur Schaffung einer Spezialfinanzierung für Aufgaben im Luftverkehr;Obl.;5039710;2659424;52.76938554;163305;19324;2476795;1609682;867113
+546;29.11.2009;Volksinitiative «Für ein Verbot von Kriegsmaterial-Exporten»;I.;5039710;2697978;53.53438988;45910;16780;2635288;837156;1798132
+547;29.11.2009;Volksinitiative «Gegen den Bau von Minaretten»;I.;5039710;2716938;53.910602;30519;16969;2669450;1535010;1134440
+359;01.04.1990;Volksinitiative 'Stopp dem Beton - für eine Begrenzung des Strassenbaus!';I.;4327120;1779499;41.1243275;21580;2107;1755812;500615;1255197
+360;01.04.1990;Volksinitiative 'für eine autobahnfreie Landschaft zwischen Murten und Yverdon';I.;4327120;1778172;41.09366045;28920;2248;1747004;571648;1175356
+361;01.04.1990;Volksinitiative 'für ein autobahnfreies Knonauer Amt';I.;4327120;1779697;41.12890329;32026;2611;1745060;547359;1197701
+362;01.04.1990;Volksinitiative 'für eine freie Aarelandschaft zwischen Biel und Solothurn/Zuchwil';I.;4327120;1776633;41.05809407;34604;2333;1739696;592237;1147459
+363;01.04.1990;Bundesbeschluss über den Rebbau;Fak.;4327120;1766240;40.81791122;109745;3679;1652816;771207;881609
+364;01.04.1990;Bundesgesetz über die Organisation der Bundesrechtspflege, Änderung vom 23. Juni 1989;Fak.;4327120;1762581;40.73335151;120437;3721;1638423;775885;862538
+365;23.09.1990;Volksinitiative 'für den Ausstieg aus der Atomenergie';I.;4345490;1756278;40.41610958;21690;2539;1732049;816300;915749
+366;23.09.1990;Volksinitiative 'Stopp dem Atomkraftwerkbau (Moratorium)';I.;4345490;1757127;40.43564707;19375;2446;1735306;946087;789219
+367;23.09.1990;Bundesbeschluss über den Energieartikel in der Bundesverfassung;Obl.;4345490;1752962;40.33980057;41246;2930;1708786;1214940;493846
+368;23.09.1990;Bundesgesetz über den Strassenverkehr, Änderung vom 6. Oktober 1989;Fak.;4345490;1751210;40.29948291;45612;2907;1702691;898958;803733
+369;03.03.1991;Bundesbeschluss über die Herabsetzung des Stimm- und Wahlrechtsalters auf 18 Jahre;Obl.;4350879;1361213;31.28593096;9794;2347;1349072;981425;367647
+370;03.03.1991;Volksinitiative 'zur Förderung des öffentlichen Verkehrs';I.;4350879;1359014;31.23538945;19406;2514;1337094;496600;840494
+371;02.06.1991;Bundesbeschluss über die Neuordnung der Bundesfinanzen;Obl.;4499041;1496841;33.27170265;39055;2480;1455306;664318;790988
+372;02.06.1991;Militärstrafgesetz (MStG), Änderung vom 5. Oktober 1990;Fak.;4499041;1499196;33.32404946;28614;2466;1468116;817458;650658
+373;16.02.1992;Volksinitiative 'für eine finanziell tragbare Krankenversicherung (Krankenkasseninitiative)';I.;4515485;2004983;44.40238424;31969;4469;1968545;772995;1195550
+374;16.02.1992;Volksinitiative 'zur drastischen und schrittweisen Einschränkung der Tierversuche (Weg vom Tierversuch!)';I.;4515485;2009400;44.50020319;22854;4412;1982134;864898;1117236
+375;17.05.1992;Bundesbeschluss über den Beitritt der Schweiz zu den Institutionen von Bretton Woods;Fak.;4519144;1753457;38.80064455;95836;3383;1654238;923685;730553
+376;17.05.1992;Bundesgesetz über die Mitwirkung der Schweiz an den Institutionen von Bretton Woods;Fak.;4519144;1753278;38.79668362;101607;3488;1648183;929926;718257
+377;17.05.1992;Bundesgesetz über den Schutz der Gewässer (Gewässerschutzgesetz, GSchG);Fak.;4519144;1771843;39.20749151;26233;2664;1742946;1151706;591240
+378;17.05.1992;Volksinitiative 'zur Rettung unserer Gewässer';I.;4519144;1771722;39.20481401;31086;2566;1738070;644083;1093987
+379;17.05.1992;Gegenentwurf der Bundesversammlung zur  Volksinitiative 'gegen Missbräuche der Fortpflanzungs- und Gentechnologie beim Menschen';Obl.;4519144;1770487;39.17748582;45657;3143;1721687;1271052;450635
+380;17.05.1992;Bundesbeschluss über die Einführung eines Zivildienstes für Dienstverweigerer;Obl.;4519144;1772139;39.21404142;22027;2408;1747704;1442263;305441
+381;17.05.1992;Schweizerisches Strafgesetzbuch, Militärstrafgesetz (Strafbare Handlungen gegen die sexuelle Integrität), Änderung vom 21. Juni 1991;Fak.;4519144;1768752;39.1390936;48500;2925;1717327;1255604;461723
+382;27.09.1992;Bundesbeschluss über den Bau der schweizerischen Eisenbahn-Alpentransversale (Alpentransit-Beschluss);Fak.;4533617;2080785;45.89679719;24945;2878;2052962;1305914;747048
+383;27.09.1992;Bundesgesetz über den Geschäftsverkehr der Bundesversammlung sowie über die Form, die Bekanntmachung und das Inkrafttreten ihrer Erlasse (Geschäftsverkehrsgesetz), Änderung vom 4. Oktober 1991;Fak.;4533617;2058710;45.40987913;162708;4685;1891317;1097185;794132
+384;27.09.1992;Bundesgesetz über die Bezüge der Mitglieder der eidgenössischen Räte und über die Beiträge an die Fraktionen (Entschädigungsgesetz), Änderung vom 4. Oktober 1991;Fak.;4533617;2065103;45.55089237;93732;3649;1967722;542768;1424954
+385;27.09.1992;Bundesgesetz über die Beiträge an die Infrastrukturkosten der Fraktionen und der Mitglieder der eidgenössischen Räte (Infrastrukturgesetz);Fak.;4533617;2061749;45.4769117;127774;3894;1930081;590484;1339597
+386;27.09.1992;Bundesgesetz über die Stempelabgaben, Änderung vom 4. Oktober 1991;Fak.;4533617;2070537;45.67075251;65275;3332;2001930;1230579;771351
+387;27.09.1992;Bundesgesetz über das bäuerliche Bodenrecht (BGBB);Fak.;4533617;2069711;45.65253307;90249;4054;1975408;1058317;917091
+388;06.12.1992;Bundesbeschluss über den Europäischen Wirtschaftsraum (EWR);Obl.;4546571;3580094;78.74272721;23487;7027;3549580;1762872;1786708
+389;07.03.1993;Bundesgesetz über die Erhöhung des Treibstoffzolles vom 9. Oktober 1992;Fak.;4551493;2333833;51.27620761;19307;4086;2310440;1259373;1051067
+390;07.03.1993;Bundesbeschluss über die Aufhebung des Spielbankenverbots;Obl.;4551493;2332502;51.24696446;29343;4707;2298452;1665454;632998
+391;07.03.1993;Volksinitiative 'zur Abschaffung der Tierversuche';I.;4551493;2331753;51.23050832;40830;4832;2286091;634758;1651333
+392;06.06.1993;Volksinitiative '40 Waffenplätze sind genug - Umweltschutz auch beim Militär';I.;4559258;2534004;55.57930698;14715;3584;2515705;1124893;1390812
+393;06.06.1993;Volksinitiative 'für eine Schweiz ohne neue Kampfflugzeuge';I.;4559258;2534220;55.5840446;20077;3738;2510405;1074661;1435744
+394;26.09.1993;Bundesbeschluss gegen den Waffenmissbrauch;Obl.;4553754;1814663;39.849825;27262;2593;1784808;1539782;245026
+395;26.09.1993;Bundesbeschluss über den Anschluss des bernischen Amtsbezirks Laufen an den Kanton Basel-Landschaft;Obl.;4553754;1798547;39.49591919;209883;6830;1581834;1188941;392893
+396;26.09.1993;Volksinitiative 'für einen arbeitsfreien Bundesfeiertag' (1. August-Initiative);I.;4553754;1816428;39.88858423;32226;2795;1781407;1492285;289122
+397;26.09.1993;Bundesbeschluss über befristete Massnahmen gegen die Kostensteigerung in der Krankenversicherung;Fak.;4553754;1811582;39.78216654;50400;2971;1758211;1416209;342002
+398;26.09.1993;Bundesbeschluss über Massnahmen in der Arbeitslosenversicherung;Fak.;4553754;1809748;39.74189207;66321;3245;1740182;1225069;515113
+399;28.11.1993;Bundesbeschluss über die Finanzordnung;Obl.;4565751;2073194;45.40751346;48433;3330;2021431;1347400;674031
+400;28.11.1993;Bundesbeschluss über einen Beitrag zur Gesundung der Bundesfinanzen;Obl.;4565751;2071952;45.38031093;52257;3369;2016326;1163887;852439
+401;28.11.1993;Bundesbeschluss über Massnahmen zur Erhaltung der Sozialversicherung;Obl.;4565751;2072283;45.38756056;57503;3526;2011254;1258782;752472
+402;28.11.1993;Bundesbeschluss über besondere Verbrauchssteuern;Obl.;4565751;2072208;45.38591789;70176;3634;1998398;1212002;786396
+403;28.11.1993;Volksinitiative 'zur Verminderung der Alkoholprobleme';I.;4565751;2076808;45.48666802;30516;3073;2043219;516054;1527165
+404;28.11.1993;Volksinitiative 'zur Verminderung der Tabakprobleme';I.;4565751;2077305;45.49755341;30999;2988;2043318;521433;1521885
+405;20.02.1994;Bundesbeschluss über die Weiterführung der Nationalstrassenabgabe;Obl.;4567573;1863398;40.79623905;21337;2575;1839486;1259609;579877
+406;20.02.1994;Bundesbeschluss über die Weiterführung der Schwerverkehrsabgabe;Obl.;4567573;1862531;40.77725742;26348;2719;1833464;1324242;509222
+407;20.02.1994;Bundesbeschluss über die Einführung einer leistungs- oder verbrauchsabhängigen Schwerverkehrsabgabe;Obl.;4567573;1861208;40.74829236;38812;2855;1819541;1221630;597911
+408;20.02.1994;Volksinitiative 'zum Schutze des Alpengebietes vor dem Transitverkehr';I.;4567573;1865111;40.83374256;23436;2822;1838853;954491;884362
+409;20.02.1994;Luftfahrtgesetz (LFG), Änderung vom 18. Juni 1993;Fak.;4567573;1856045;40.6352564;80734;3752;1771559;1081844;689715
+410;12.06.1994;Bundesbeschluss über einen Kulturförderungsartikel in der Bundesverfassung (Art. 27septies BV);Obl.;4572713;2131789;46.61978567;50640;3936;2077213;1059025;1018188
+411;12.06.1994;Bundesbeschluss über die Revision der Bürgerrechtsregelung in der Bundesverfassung (Erleichterte Einbürgerung für junge Ausländer);Obl.;4572713;2137944;46.75438848;25899;3430;2108615;1114158;994457
+412;12.06.1994;Bundesgesetz über schweizerische Truppen für friedenserhaltende Operationen (BTFO);Fak.;4572713;2138973;46.77689153;31998;3613;2103362;899626;1203736
+413;25.09.1994;Bundesbeschluss über die Aufhebung der Verbilligung von inländischem Brotgetreide aus Zolleinnahmen;Obl.;4576512;2082706;45.5085882;82941;4689;1995076;1288697;706379
+414;25.09.1994;Schweizerisches Strafgesetzbuch Militärstrafgesetz, Änderung vom 18. Juni 1993;Fak.;4576512;2100739;45.90262191;24910;3192;2072637;1132662;939975
+415;04.12.1994;Bundesgesetz über die Krankenversicherung (KVG);Fak.;4580035;2014475;43.98383418;37612;5328;1971535;1021175;950360
+416;04.12.1994;Volksinitiative 'für eine gesunde Krankenversicherung';I.;4580035;2014250;43.97892156;43849;5550;1964851;460674;1504177
+417;04.12.1994;Bundesgesetz über Zwangsmassnahmen im Ausländerrecht;Fak.;4580035;2016575;44.02968536;42333;5905;1968337;1435040;533297
+418;12.03.1995;Gegenentwurf der Bundesversammlung zur Volksinitiative 'für eine umweltgerechte und leistungsfähige bäuerliche Landwirtschaft';Obl.;4583930;1738895;37.93458888;32030;4543;1702322;836215;866107
+419;12.03.1995;Milchwirtschaftsbeschluss 1988 (MWB 1988), Änderung vom 18. März 1994;Fak.;4583930;1738955;37.9358978;34956;4647;1699352;620745;1078607
+420;12.03.1995;Landwirtschaftsgesetz, Änderung vom 8. Oktober 1993;Fak.;4583930;1738353;37.92276496;37002;4680;1696671;569950;1126721
+421;12.03.1995;Bundesbeschluss über eine Ausgabenbremse;Obl.;4583930;1735266;37.855421;61545;5665;1668056;1390831;277225
+422;25.06.1995;Bundesgesetz über die Alters- und Hinterlassenenversicherung, Änderung vom 7. Oktober 1994;Fak.;4591795;1856163;40.42347274;21621;6140;1828402;1110053;718349
+423;25.06.1995;Volksinitiative 'zum Ausbau von AHV und IV';I.;4591795;1852720;40.34849117;39614;6538;1806568;499266;1307302
+424;25.06.1995;Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland, Änderung vom 7. Oktober 1994;Fak.;4591795;1852627;40.34646582;48577;6675;1797375;834673;962702
+425;10.03.1996;Bundesbeschluss über die Revision des Sprachenartikels in der Bundesverfassung (Art. 116 BV);Obl.;4599427;1427282;31.03173504;41583;4494;1381205;1052052;329153
+426;10.03.1996;Bundesbeschluss über den Uebertritt der bernischen Gemeinde Vellerat zum Kanton Jura;Obl.;4599427;1425539;30.99383902;55758;4948;1364833;1250728;114105
+427;10.03.1996;Bundesbeschluss über die Aufhebung der kantonalen Zuständigkeit im Bereich der persönlichen Ausrüstung der Armeeangehörigen;Obl.;4599427;1426568;31.01621137;45376;4492;1376700;601613;775087
+428;10.03.1996;Bundesbeschluss über die Aufhebung der Pflicht zum Ankauf von Brennapparaten und zur Uebernahme von Branntwein;Obl.;4599427;1422265;30.92265624;67318;4949;1349998;1090783;259215
+429;10.03.1996;Bundesbeschluss über die Aufhebung der Bundesbeiträge an Bahnhofparkplatzanlagen;Obl.;4599427;1425049;30.98318551;46519;4519;1374011;741219;632792
+430;09.06.1996;Gegenentwurf der Bundesversammlung vom 21. Dezember 1995 zur Volksinitiative 'Bauern und Konsumenten - für eine naturnahe Landwirtschaft';Obl.;4602577;1445966;31.41644344;41150;4408;1400408;1086534;313874
+431;09.06.1996;Regierungs- und Verwaltungsorganisationsgesetz (RVOG) vom 6. Oktober 1995;Fak.;4602577;1442422;31.3394431;55124;4678;1382620;544630;837990
+432;01.12.1996;Volksinitiative 'gegen die illegale Einwanderung';I.;4612266;2156106;46.74721709;28657;6281;2121168;982867;1138301
+433;01.12.1996;Bundesgesetz über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz), Änderung vom 22. März 1996;Fak.;4612266;2154933;46.72178491;32146;5952;2116835;697874;1418961
+434;08.06.1997;Volksinitiative 'EU-Beitrittsverhandlungen vors Volk!';I.;4614662;1635564;35.44276916;24417;4987;1606160;416720;1189440
+435;08.06.1997;Volksinitiative 'für ein Verbot der Kriegsmaterialausfuhr';I.;4614662;1636833;35.47026846;26845;4955;1605033;361164;1243869
+436;08.06.1997;Bundesbeschluss über die Aufhebung des Pulverregals;Obl.;4614662;1626896;35.25493308;77520;6165;1543211;1268162;275049
+437;28.09.1997;Bundesbeschluss vom 13. Dezember 1996 über die Finanzierung der Arbeitslosenversicherung;Fak.;4620084;1876622;40.61878529;37703;6101;1832818;901361;931457
+438;28.09.1997;Volksinitiative 'Jugend ohne Drogen';I.;4620084;1886054;40.82293742;20248;6033;1859773;545713;1314060
+439;07.06.1998;Bundesbeschluss über Massnahmen zum Haushaltausgleich;Obl.;4629496;1894433;40.92093394;76513;7105;1810815;1280329;530486
+440;07.06.1998;Volksinitiative 'zum Schutz von Leben und Umwelt vor Genmanipulation (Gen-Schutz-Initiative)';I.;4629496;1913034;41.32272714;29169;6599;1877266;624964;1252302
+441;07.06.1998;Volksinitiative 'S.o.S. - Schweiz ohne Schnüffelpolizei';I.;4629496;1897624;40.98986153;56644;6836;1834144;451089;1383055
+442;27.09.1998;Bundesgesetz über eine leistungsabhängige Schwerverkehrsabgabe (Schwerverkehrsabgabegesetz, SVAG);Fak.;4636259;2402260;51.81462037;24674;7481;2370105;1355735;1014370
+443;27.09.1998;Volksinitiative 'für preisgünstige Nahrungsmittel und ökologische Bauernhöfe';I.;4636259;2391658;51.58594462;54518;7680;2329460;535436;1794024
+444;27.09.1998;Volksinitiative 'für die 10. AHV-Revision ohne Erhöhung des Rentenalters';I.;4636259;2394024;51.63697714;38203;7716;2348105;973966;1374139
+445;29.11.1998;Bundesbeschluss über Bau und Finanzierung von Infrastrukturvorhaben des öffentlichen Verkehrs;Obl.;4638920;1777023;38.30682573;32150;5865;1739008;1104294;634714
+446;29.11.1998;Bundesbeschluss über einen befristet geltenden, neuen Getreideartikel;Obl.;4638920;1763920;38.02436774;96537;7325;1660058;1318585;341473
+447;29.11.1998;Volksinitiative 'für eine vernünftige Drogenpolitik';I.;4638920;1779697;38.36446845;30286;5890;1743521;453451;1290070
+448;29.11.1998;Bundesgesetz über die Arbeit in Industrie, Gewerbe und Handel, Änderung vom 20. März 1998;Fak.;4638920;1767694;38.10572288;68253;6452;1692989;1072978;620011
+449;07.02.1999;Bundesbeschluss über die Änderung der Voraussetzung für die Wählbarkeit in den Bundesrat;Obl.;4641615;1764453;38.01356848;35404;5457;1723592;1287081;436511
+450;07.02.1999;Bundesbeschluss betreffend die Verfassungsbestimmung über die Transplantationsmedizin;Obl.;4641615;1762875;37.97957188;46216;5471;1711188;1501925;209263
+451;07.02.1999;Volksinitiative 'Wohneigentum für alle';I.;4641615;1771969;38.17549401;19817;5410;1746742;721717;1025025
+452;07.02.1999;Bundesgesetz über die Raumplanung (RPG), Änderung vom 20. März 1998;Fak.;4641615;1762026;37.96128093;53715;5699;1702612;952482;750130
+453;18.04.1999;Bundesbeschluss über eine neue Bundesverfassung;Obl.;4642854;1666869;35.90224345;23335;5066;1638468;969310;669158
+454;13.06.1999;Asylgesetz (AsylG);Fak.;4646362;2117964;45.58341304;66156;7282;2044526;1443137;601389
+455;13.06.1999;Bundesbeschluss über dringliche Massnahmen im Asyl- und Ausländerbereich (BMA);Fak.;4646362;2119712;45.62103398;68695;7125;2043892;1447984;595908
+456;13.06.1999;Bundesbeschluss über die ärztliche Verschreibung von Heroin;Fak.;4646362;2125369;45.74278552;45297;6760;2073312;1128393;944919
+457;13.06.1999;Bundesgesetz über die Invalidenversicherung;Fak.;4646362;2120659;45.64141558;63774;7102;2049783;620797;1428986
+458;13.06.1999;Bundesgesetz über die Mutterschaftsversicherung;Fak.;4646362;2134884;45.94757001;19146;6456;2109282;822458;1286824
+299;02.03.1980;Volksinitiative 'betreffend die vollständige Trennung von Kirche und Staat';I.;3907773;1354703;34.6668806;18661;1992;1334050;281475;1052575
+300;02.03.1980;Bundesbeschluss über die Neuordnung der Landesversorgung;Obl.;3907773;1346756;34.46351669;46734;2006;1298016;1117007;181009
+301;30.11.1980;Bundesgesetz über den Strassenverkehr, Änderung vom 21. März 1980 (Gurten- und Schutzhelmobligatorium);Fak.;3935792;1655324;42.05821852;20137;2078;1633109;841901;791208
+302;30.11.1980;Bundesbeschluss über die Aufhebung des Kantonsanteiles am Reinertrag der Stempelabgaben;Obl.;3935792;1647982;41.87167411;70536;2691;1574755;1059760;514995
+303;30.11.1980;Bundesbeschluss über die Neuverteilung der Reineinnahmen der Eidgenössischen Alkoholverwaltung aus der fiskalischen Belastung der gebrannten Wasser;Obl.;3935792;1648859;41.89395679;59197;2435;1587227;1127595;459632
+304;30.11.1980;Bundesbeschluss über die Revision der Brotgetreideordnung des Landes;Obl.;3935792;1649769;41.91707794;53218;2535;1594016;1012812;581204
+305;05.04.1981;Volksinitiative 'Mitenand-Initiative für eine neue Ausländerpolitik';I.;3947890;1574500;39.88206358;15524;2292;1556684;252531;1304153
+306;14.06.1981;Bundesbeschluss über die Volksinitiative 'Gleiche Rechte für Mann und Frau';Obl.;3958455;1343601;33.94256092;17312;2702;1323587;797702;525885
+307;14.06.1981;Bundesbeschluss über die Volksinitiative 'zur Absicherung der Rechte der Konsumenten';Obl.;3958455;1341560;33.8910004;29949;2605;1309006;858012;450994
+308;29.11.1981;Bundesbeschluss über die Weiterführung der Finanzordnung und die Verbesserung des Bundeshaushaltes;Obl.;3976769;1207049;30.35250476;18598;1616;1186835;818327;368508
+309;06.06.1982;Schweizerisches Strafgesetzbuch (StGB), Änderung vom 9. Oktober 1981;Fak.;3999674;1407028;35.17856705;22595;1762;1382671;880880;501791
+310;06.06.1982;Ausländergesetz (AuG);Fak.;3999674;1406966;35.17701693;34425;1869;1370672;680404;690268
+311;28.11.1982;Volksinitiative 'zur Verhinderung missbräuchlicher Preise';I.;4022995;1324471;32.92251171;12579;9698;1302194;730938;530523
+312;27.02.1983;Bundesbeschluss über die Neuregelung bei den Treibstoffzöllen;Obl.;4034694;1307873;32.41566771;17706;1162;1289005;679134;609871
+313;27.02.1983;Bundesbeschluss über den Energieartikel in der Bundesverfassung;Obl.;4034694;1306593;32.38394287;29811;1250;1275532;649485;626047
+314;04.12.1983;Bundesbeschluss über Änderungen der Bürgerrechtsregelung in der Bundesverfassung;Obl.;4073941;1459793;35.83245315;22557;1698;1435538;872981;562557
+315;04.12.1983;Bundesbeschluss über die Erleichterung gewisser Einbürgerungen;Obl.;4073941;1461270;35.86870797;21687;1661;1437922;644669;793253
+316;26.02.1984;Bundesbeschluss über die Erhebung einer Schwerverkehrsabgabe;Obl.;4087215;2156592;52.76433953;17124;2223;2137245;1254489;882756
+317;26.02.1984;Bundesbeschluss über eine Abgabe für die Benützung der Nationalstrassen;Obl.;4087215;2157456;52.78547862;17706;2202;2137548;1132497;1005051
+318;26.02.1984;Volksinitiative 'für einen echten Zivildienst auf der Grundlage des Tatbeweises';I.;4087215;2156780;52.76893924;21464;2421;2132895;771413;1361482
+319;20.05.1984;Volksinitiative 'gegen den Missbrauch des Bankgeheimnisses und der Bankenmacht';I.;4097762;1742351;42.51957532;16954;1796;1723601;464637;1258964
+320;20.05.1984;Volksinitiative 'gegen den Ausverkauf der Heimat';I.;4097762;1740736;42.48016356;25824;1961;1712951;837997;874954
+321;23.09.1984;Volksinitiative 'für eine Zukunft ohne weitere Atomkraftwerke';I.;4114658;1713477;41.64324228;17992;1448;1694037;762792;931245
+322;23.09.1984;Volksinitiative 'für eine sichere, sparsame und umweltgerechte Energieversorgung';I.;4114658;1712397;41.61699466;20212;1502;1690683;773767;916916
+323;02.12.1984;Volksinitiative 'für einen wirksamen Schutz der Mutterschaft';I.;4123190;1552010;37.64100126;19166;2428;1530416;241442;1288974
+324;02.12.1984;Bundesbeschluss über einen Radio- und Fernsehartikel;Obl.;4123190;1547742;37.53748918;86784;3534;1457424;1001888;455536
+325;02.12.1984;Bundesbeschluss über die Volksinitiative 'zur Entschädigung der Opfer von Gewaltverbrechen';Obl.;4123190;1551262;37.62285997;36180;2827;1512255;1241377;270878
+326;10.03.1985;Bundesbeschluss über die Aufhebung der Beiträge für den Primarschulunterricht;Obl.;4134052;1421438;34.38365071;46403;1932;1373103;802882;570221
+327;10.03.1985;Bundesbeschluss über die Aufhebung der Beitragspflicht des Bundes im Gesundheitswesen;Obl.;4134052;1422147;34.40080096;48766;1951;1371430;726781;644649
+328;10.03.1985;Bundesbeschluss über die Ausbildungsbeiträge;Obl.;4134052;1422205;34.40220394;51614;2020;1368571;651854;716717
+329;10.03.1985;Volksinitiative 'für eine Verlängerung der bezahlten Ferien';I.;4134052;1430370;34.59970992;19961;1729;1408680;489995;918685
+330;09.06.1985;Volksinitiative 'Recht auf Leben';I.;4144312;1480472;35.72298611;31856;1523;1447093;448016;999077
+331;09.06.1985;Bundesbeschluss über die Aufhebung des Kantonsanteiles am Reinertrag der Stempelabgaben;Obl.;4144312;1460694;35.2457537;100995;1794;1357905;903345;454560
+332;09.06.1985;Bundesbeschluss über die Neuverteilung des Reinertrages aus der fiskalischen Belastung gebrannter Wasser;Obl.;4144312;1460771;35.24761167;100479;1839;1358453;982318;376135
+333;09.06.1985;Bundesbeschluss über die Aufhebung der Unterstützung für die Selbstversorgung mit Brotgetreide;Obl.;4144312;1463634;35.3166943;82030;1697;1379907;787156;592751
+334;22.09.1985;Bundesbeschluss über die Volksinitiative 'für die Koordination des Schuljahrbeginns';Obl.;4160547;1705700;40.99701313;30555;2223;1672922;984463;688459
+335;22.09.1985;Bundesbeschluss über die Innovationsrisikogarantie zugunsten von kleinen und mittleren Unternehmen;Fak.;4160547;1700216;40.86520354;84782;2639;1612795;695288;917507
+336;22.09.1985;Schweizerisches Zivilgesetzbuch (Wirkungen der Ehe im allgemeinen, Ehegüterrecht und Erbrecht), Änderung vom 5. Oktober 1984;Fak.;4160547;1709875;41.09736052;23290;2223;1684362;921743;762619
+337;01.12.1985;Volksinitiative 'für die Abschaffung der Vivisektion';I.;4167376;1582278;37.96820829;21118;2680;1558480;459358;1099122
+338;16.03.1986;Bundesbeschluss über den Beitritt der Schweiz zur Organisation der Vereinten Nationen;Obl.;4181276;2120130;50.70533493;15126;2141;2102863;511713;1591150
+339;28.09.1986;Volksinitiative Eidgenössische 'Kulturinitiative';I.;4203197;1460318;34.74303013;53657;12090;1394571;232326;1048679
+340;28.09.1986;Volksinitiative 'für eine gesicherte Berufsbildung und Umschulung';I.;4203197;1463399;34.81633147;37216;2186;1423997;261759;1162238
+341;28.09.1986;Bundesbeschluss über die inländische Zuckerwirtschaft, Änderung vom 21. Juni 1985;Fak.;4203197;1466799;34.89722228;29103;2191;1435505;547779;887726
+342;07.12.1986;Bundesbeschluss über die Volksinitiative 'für Mieterschutz';Obl.;4210819;1461588;34.7103022;27036;1841;1432711;922221;510490
+343;07.12.1986;Volksinitiative 'für eine gerechte Besteuerung des Schwerverkehrs (Schwerverkehrsabgabe)';I.;4210819;1462909;34.74167377;26325;2042;1434542;485930;948612
+344;05.04.1987;Asylgesetz, Änderung vom 20. Juni 1986;Fak.;4223723;1790092;42.38185127;35021;2659;1752412;1180082;572330
+345;05.04.1987;Bundesgesetz über Aufenthalt und Niederlassung der Ausländer, Änderung vom 20. Juni 1986;Fak.;4223723;1783988;42.23733422;73532;2969;1707487;1122027;585460
+346;05.04.1987;Volksinitiative 'für die Mitsprache des Volkes bei Militärausgaben (Rüstungsreferendum)';I.;4223723;1791628;42.41821729;28080;2702;1760846;714209;1046637
+347;05.04.1987;Bundesbeschluss über das Abstimmungsverfahren bei Volksinitiativen mit Gegenentwurf;Obl.;4223723;1785014;42.26162558;72765;3592;1708657;1080992;627665
+348;06.12.1987;Bundesbeschluss betreffend das Konzept BAHN 2000;Fak.;4250684;2027274;47.69288896;22635;2889;2001750;1140857;860893
+349;06.12.1987;Bundesgesetz über die Krankenversicherung, Änderung vom 20. März 1987;Fak.;4250684;2026041;47.66388186;33063;3300;1989678;571447;1418231
+350;06.12.1987;Volksinitiative 'zum Schutz der Moore - Rothenthurm-Initiative';I.;4250684;2026330;47.67068077;26139;3188;1997003;1153448;843555
+351;12.06.1988;Bundesbeschluss über die Verfassungsgrundlagen für eine koordinierte Verkehrspolitik;Obl.;4267923;1788125;41.89684303;32243;2627;1753255;797955;955300
+352;12.06.1988;Eidgenössische Volksinitiative 'zur Herabsetzung des AHV-Rentenalters auf 62 Jahre für Männer und 60 Jahre für Frauen';I.;4267923;1793431;42.0211658;12892;2609;1777930;624390;1153540
+353;04.12.1988;Volksinitiative 'Stadt-Land-Initiative gegen die Bodenspekulation';I.;4285419;2263924;52.82853322;31548;2273;2230103;686398;1543705
+354;04.12.1988;Volksinitiative 'zur Herabsetzung der Arbeitszeit';I.;4285419;2265390;52.86274224;18677;1913;2244800;769264;1475536
+355;04.12.1988;Volksinitiative 'für die Begrenzung der Einwanderung';I.;4285419;2264316;52.83768052;23752;2143;2238421;731929;1506492
+356;04.06.1989;Volksinitiative 'für ein naturnahes Bauern - gegen Tierfabriken (Kleinbauern-Initiative)';I.;4302785;1547257;35.95943093;29347;2445;1515465;741772;773693
+357;26.11.1989;Volksinitiative 'für eine Schweiz ohne Armee und für eine umfassende Friedenspolitik';I.;4320933;2989326;69.18241963;27617;4791;2956918;1052442;1904476
+358;26.11.1989;Volksinitiative 'pro Tempo 130/100';I.;4320933;2987966;69.15094495;20165;4822;2962979;1126458;1836521
+219;01.02.1970;Bundesbeschluss über die inländische Zuckerwirtschaft;Fak.;1634975;715486;43.76128075;13615;1195;700676;380023;320653
+220;07.06.1970;Volksinitiative 'gegen die Ueberfremdung';I.;1641777;1226658;74.71526279;11740;2557;1212361;557517;654844
+221;27.09.1970;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 27quinquies betreffend die Förderung von Turnen und Sport;Obl.;1648062;721383;43.77159354;17658;1081;702644;524361;178283
+222;27.09.1970;Volksinitiative 'Recht auf Wohnung und Ausbau des Familienschutzes';I.;1648062;722070;43.81327887;16420;1192;704458;344640;359818
+223;15.11.1970;Bundesbeschluss über die Änderung der Finanzordnung des Bundes;Obl.;1665753;682095;40.94814777;19658;1355;661082;366117;294965
+224;07.02.1971;Bundesbeschluss über die Einführung des Frauenstimm- und Wahlrechts in eidgenössischen Angelegenheiten;Obl.;1654708;955321;57.73350948;8600;1730;944991;621109;323882
+225;06.06.1971;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 24septies betreffend den Schutz des Menschen und seiner natürlichen Umwelt gegen schädliche oder lästige Einwirkungen;Obl.;3565435;1349608;37.85254815;28252;2066;1319290;1222931;96359
+226;06.06.1971;Bundesbeschluss über die Weiterführung der Finanzordnung des Bundes;Obl.;3565435;1346363;37.76153541;64306;2477;1279583;930878;348702
+227;05.03.1972;Volksinitiative 'zur Förderung des Wohnungsbaues';I.;3600759;1285893;35.71172078;26974;14427;1244492;360262;835315
+228;05.03.1972;Bundesbeschluss betreffend die Ergänzung der Bundesverfassung durch einen Artikel 34septies über die Allgemeinverbindlicherklärung von Mietverträgen und Massnahmen zum Schutze der Mieter;Obl.;3600759;1285714;35.7067496;44788;1959;1238117;1057322;180795
+229;04.06.1972;Bundesbeschluss über Massnahmen zur Stabilisierung des Baumarktes;Obl.;3604099;963855;26.74329978;33453;781;929621;774794;154827
+230;04.06.1972;Bundesbeschluss über den Schutz der Währung;Obl.;3604099;963187;26.72476533;40014;1035;922138;808974;113164
+231;24.09.1972;Volksinitiative 'für eine vermehrte Rüstungskontrolle und ein Waffenausfuhrverbot';I.;3620937;1198239;33.09195935;18598;1762;1177879;585046;592833
+232;03.12.1972;Volksinitiative 'zur Einführung einer Volkspension';I.;3628891;1921226;52.94251054;20837;15614;1884775;294511;1481488
+233;03.12.1972;Bundesbeschluss über die Abkommen zwischen der Schweizerischen Eidgenossenschaft und der Europäischen Wirtschaftsgemeinschaft sowie den Mitgliedstaaten der Europäischen Gemeinschaft für Kohle und Stahl;Obl.;3628891;1920153;52.91294227;62125;3569;1854459;1344994;509465
+234;04.03.1973;Bundesbeschluss über die Änderung der Bundesverfassung betreffend das Bildungswesen;Obl.;3633517;999302;27.50233452;35349;2111;961842;507414;454428
+235;04.03.1973;Bundesbeschluss über die Ergänzung der Bundesverfassung betreffend die Förderung der wissenschaftlichen Forschung;Obl.;3633517;999497;27.50770122;39922;2090;957485;617628;339857
+236;20.05.1973;Bundesbeschluss über die Aufhebung des Jesuiten- und des Klosterartikels der Bundesverfassung (Art. 51 und 52);Obl.;3642756;1467494;40.28526753;25051;2443;1440000;791076;648924
+237;02.12.1973;Bundesbeschluss über Massnahmen zur Ueberwachung der Preise;Obl.;3665107;1283799;35.02759947;25076;1701;1257016;751173;505843
+238;02.12.1973;Bundesbeschluss über Massnahmen auf dem Gebiete des Kreditwesens;Obl.;3665107;1282565;34.9939306;36398;1811;1244352;810307;434045
+239;02.12.1973;Bundesbeschluss über Massnahmen zur Stabilisierung des Baumarktes;Obl.;3665107;1283243;35.01242938;28991;1745;1252505;881662;370843
+240;02.12.1973;Bundesbeschluss über die Einschränkung der steuerwirksamen Abschreibungen bei den Einkommenssteuern von Bund, Kantonen und Gemeinden;Obl.;3665107;1280985;34.95082135;52321;1918;1226748;834792;391956
+241;02.12.1973;Bundesbeschluss über einen Tierschutzartikel anstelle des bisherigen Artikels 25bis der Bundesverfassung;Obl.;3665107;1282410;34.98970153;39855;1959;1240594;1041504;199090
+242;20.10.1974;Volksinitiative 'gegen die Ueberfremdung und Ueberbevölkerung der Schweiz';I.;3702498;2604051;70.33227297;28338;5190;2570523;878891;1691632
+243;08.12.1974;Bundesbeschluss zur Verbesserung des Bundeshaushalts;Obl.;3706105;1466781;39.57742698;54804;2303;1409674;625780;783894
+244;08.12.1974;Bundesbeschluss über die Erschwerung von Ausgabenbeschlüssen;Obl.;3706105;1465234;39.53568504;67782;2583;1394869;934633;460236
+245;08.12.1974;Volksinitiative 'Soziale Krankenversicherung';I.;3706105;1472162;39.72261984;19731;14094;1438337;384155;1010103
+246;02.03.1975;Bundesbeschluss über den Konjunkturartikel der Bundesverfassung;Obl.;3717238;1054929;28.37937738;24892;1448;1028589;542745;485844
+247;08.06.1975;Bundesbeschluss über den Schutz der Währung, Änderung vom 28. Juni 1974 (Verlängerung);Obl.;3719992;1369819;36.82317059;19737;1525;1348557;1153338;195219
+248;08.06.1975;Bundesbeschluss über die Finanzierung der Nationalstrassen, Änderung vom 4. Oktober 1974;Fak.;3719992;1369318;36.80970282;18518;1507;1349293;721313;627980
+249;08.06.1975;Bundesgesetz über die Änderung des Generalzolltarifs;Fak.;3719992;1368532;36.78857374;26004;1589;1340939;646687;694252
+250;08.06.1975;Bundesbeschluss betreffend Erhöhung der Steuereinnahmen ab 1976;Obl.;3719992;1369699;36.81994477;21398;1618;1346683;753642;593041
+251;08.06.1975;Bundesbeschluss über die Erschwerung von Ausgabenbeschlüssen;Obl.;3719992;1369259;36.80811679;22828;1605;1344826;1021315;323511
+252;07.12.1975;Bundesbeschluss über eine Änderung der Bundesverfassung (Niederlassungsfreiheit und Unterstützungsregelung);Obl.;3737823;1155136;30.90397806;39934;474;1113728;842165;271563
+253;07.12.1975;Bundesbeschluss betreffend Änderung der Bundesverfassung im Gebiete der Wasserwirtschaft;Obl.;3737823;1156219;30.93295215;46897;1559;1107763;858720;249043
+254;07.12.1975;Bundesgesetz über die Ein- und Ausfuhr von Erzeugnissen aus Landwirtschaftsprodukten;Fak.;3737823;1161817;31.08271847;31605;1575;1128637;587148;541489
+255;21.03.1976;Volksinitiative 'für die Mitbestimmung der Arbeitnehmer';I.;3750162;1479405;39.4490958;15198;6248;1457959;472094;966140
+256;21.03.1976;Volksinitiative 'für eine Reform des Steuerwesens' (Gerechtere Besteuerung und Abschaffung der Steuerprivilegien);I.;3750162;1474085;39.30723526;53291;1911;1418883;599053;819830
+257;13.06.1976;Bundesgesetz über die Raumplanung;Fak.;3756474;1298665;34.57138263;17061;1237;1280367;626134;654233
+258;13.06.1976;Bundesbeschluss betreffend ein Abkommen zwischen der Schweiz und der Internationalen Entwicklungsorganisation (IDA) über ein Darlehen von 200 Millionen Franken;Fak.;3756474;1296862;34.52338549;30574;1436;1264852;550865;713987
+259;13.06.1976;Bundesbeschluss über eine Neukonzeption der Arbeitslosenversicherung;Obl.;3756474;1296974;34.52636701;26901;1312;1268761;866211;402550
+260;26.09.1976;Bundesbeschluss betreffend einen Verfassungsartikel über Radio und Fernsehen;Obl.;3766161;1261980;33.50839223;33027;1586;1227367;531328;696039
+261;26.09.1976;Volksinitiative 'für eine Haftpflichtversicherung durch den Bund für Motorfahrzeuge und Fahrräder';I.;3766161;1263198;33.54073286;20543;1355;1241300;301587;939713
+262;05.12.1976;Bundesbeschluss über die Geld- und Kreditpolitik;Obl.;3772466;1691511;44.83833652;112847;2998;1575666;1108413;467253
+263;05.12.1976;Bundesbeschluss über die Preisüberwachung;Obl.;3772466;1699618;45.05323573;32177;2286;1665155;1365788;299367
+264;05.12.1976;Volksinitiative 'für die Einführung der 40-Stunden-Woche';I.;3772466;1703499;45.15611274;15309;2140;1686050;370228;1315822
+265;13.03.1977;Volksinitiative 'IV. Ueberfremdungsinitiative';I.;3785693;1711055;45.19793338;29949;2382;1678724;495904;1182820
+266;13.03.1977;Volksinitiative 'für eine Beschränkung der Einbürgerungen';I.;3785693;1711973;45.22218257;24673;2245;1685055;568867;1116188
+267;13.03.1977;Volksinitiative 'über die Neuordnung des Staatsvertragsreferendums';I.;3785693;1701901;44.95612824;69935;27519;1604447;351127;1158376
+268;12.06.1977;Bundesbeschluss über die Neuordnung der Umsatzsteuer und der direkten Bundessteuer;Obl.;3795796;1898268;50.00974763;18616;1778;1877874;760830;1117044
+269;12.06.1977;Bundesbeschluss über die Steuerharmonisierung;Obl.;3795796;1894655;49.91456337;43906;2025;1848724;1133652;715072
+270;25.09.1977;Volksinitiative 'für einen wirksamen Mieterschutz';I.;3811426;1966181;51.58649282;58757;20990;1886434;796825;1043798
+271;25.09.1977;Volksinitiative 'gegen die Luftverschmutzung durch Motorfahrzeuge' (Albatrosinitiative);I.;3811426;1969501;51.67359933;68519;2772;1898210;740842;1157368
+272;25.09.1977;Bundesbeschluss über die Erhöhung der Unterschriftenzahl für das Referendum (Art. 89 und 89bis BV);Obl.;3811426;1967555;51.62254232;69730;3328;1894047;1095631;798416
+273;25.09.1977;Bundesbeschluss über die Erhöhung der Unterschriftenzahl für die Verfassungsinitiative (Art. 120 und 121 BV);Obl.;3811426;1968023;51.63482119;81379;2999;1883645;1068157;815488
+274;25.09.1977;Volksinitiative 'für die Fristenlösung';I.;3811426;1979163;51.92710025;51680;3228;1924255;929325;994930
+275;04.12.1977;Volksinitiative 'für eine Reichtumssteuer';I.;3816824;1461486;38.29063116;22090;1264;1438132;637994;800138
+276;04.12.1977;Bundesgesetz über die politischen Rechte;Fak.;3816824;1454520;38.1081234;90008;1688;1362824;809862;552962
+277;04.12.1977;Bundesbeschluss über die Einführung eines zivilen Ersatzdienstes;Obl.;3816824;1461173;38.28243063;40069;1503;1419601;533733;885868
+278;04.12.1977;Bundesgesetz über Massnahmen zum Ausgleich des Bundeshaushaltes;Fak.;3816824;1456666;38.16434816;62749;1526;1392391;869266;523125
+279;26.02.1978;Volksinitiative 'für die vermehrte Mitbestimmung der Bundesversammlung und des Schweizervolkes im Nationalstrassenbau';I.;3821750;1842057;48.1993066;41857;2107;1800793;696501;1104292
+280;26.02.1978;Bundesgesetz über die Alters- und Hinterlassenenversicherung, Änderung vom 24. Juni 1977 (9. AHV-Revision);Fak.;3821750;1846139;48.30611631;26482;1947;1817710;1192144;625566
+281;26.02.1978;Volksinitiative 'zur Herabsetzung des AHV-Alters';I.;3821750;1847239;48.33489893;17191;1811;1828237;377017;1451220
+282;26.02.1978;Bundesbeschluss über den Konjunkturartikel der Bundesverfassung;Obl.;3821750;1834367;47.99808988;116578;3025;1714764;1172130;542634
+283;28.05.1978;Zeitgesetz;Fak.;3835650;1879954;49.01265757;28392;1324;1850238;886376;963862
+284;28.05.1978;Zolltarifgesetz, Änderung vom 7. Oktober 1977;Fak.;3835650;1867991;48.7007678;92832;2084;1773075;971908;801167
+285;28.05.1978;Bundesgesetz über den Schutz der Schwangerschaft und die Strafbarkeit des Schwangerschaftsabbruchs;Fak.;3835650;1874512;48.87077809;79717;2543;1792252;559103;1233149
+286;28.05.1978;Bundesgesetz über die Förderung der Hochschulen und die Forschung (HFG);Fak.;3835650;1875881;48.90646957;44837;1566;1829478;792458;1037020
+287;28.05.1978;Volksinitiative 'für 12 motorfahrzeugfreie Sonntage pro Jahr';I.;3835650;1884357;49.12744906;13624;1367;1869366;678162;1191204
+288;24.09.1978;Bundesbeschluss über die Gründung des Kantons Jura (Art. 1 und 80 BV);Obl.;3848961;1618463;42.04934786;24377;2372;1591714;1309841;281873
+289;03.12.1978;Milchwirtschaftsbeschluss 1977 (MWB 1977);Fak.;3857162;1664404;43.15100066;66812;2601;1594991;1092586;502405
+290;03.12.1978;Tierschutzgesetz (TschG);Fak.;3857162;1668916;43.26797786;27717;1902;1639297;1339252;300045
+291;03.12.1978;Bundesgesetz über die Erfüllung sicherheitspolizeilicher Aufgaben des Bundes;Fak.;3857162;1669239;43.27635189;23294;1914;1644031;723719;920312
+292;03.12.1978;Bundesgesetz über die Berufsbildung (BBG);Fak.;3857162;1664912;43.16417096;52261;2360;1610125;902379;707746
+293;18.02.1979;Bundesbeschluss über das Stimm- und Wahlrecht für 18jährige;Obl.;3867603;1917722;49.58425154;17641;1259;1898822;934073;964749
+294;18.02.1979;Bundesbeschluss über die Volksinitiative 'zur Förderung der Fuss- und Wanderwege';Obl.;3867603;1916529;49.55340556;23651;1463;1891415;1467357;424058
+295;18.02.1979;Volksinitiative 'gegen Suchtmittelreklame';I.;3867603;1916545;49.55381925;26247;1697;1888601;773485;1115116
+296;18.02.1979;Volksinitiative 'zur Wahrung der Volksrechte und der Sicherheit beim Bau und Betrieb von Atomanlagen';I.;3867603;1917562;49.58011461;29400;1755;1886407;920480;965927
+297;20.05.1979;Bundesbeschluss über die Neuordnung der Umsatzsteuer und der direkten Bundessteuer;Obl.;3876719;1459922;37.65870057;21817;1690;1436415;496882;939533
+298;20.05.1979;Bundesbeschluss zum Atomgesetz;Fak.;3876719;1459155;37.63891579;30169;1930;1427056;982634;444422
+150;29.01.1950;Bundesbeschluss betreffend die Verlängerung der Geltungsdauer und die Abänderung des Bundesbeschlusses über Massnahmen zur Förderung der Wohnbautätigkeit;Fak.;1394970;736767;52.81597454;14015;1418;721334;333878;387456
+151;04.06.1950;Bundesbeschluss über die verfassungsmässige Neuordnung des Finanzhaushaltes des Bundes;Obl.;1393317;771122;55.34433298;15769;1202;754151;267770;486381
+152;01.10.1950;Volksinitiative «zum Schutz des Bodens und der Arbeit durch Verhinderung der Spekulation»;I.;1400891;611803;43.67241991;22607;1311;587885;158794;429091
+153;03.12.1950;Bundesbeschluss betreffend Abänderung des Artikels 72 der Bundesverfassung (Wahl des Nationalrates);Obl.;1403731;781691;55.68666646;110615;2140;668936;450395;218541
+154;03.12.1950;Bundesbeschluss über die Finanzordnung 1951 bis 1954;Obl.;1403731;781708;55.68787752;35884;1989;743835;516704;227131
+155;25.02.1951;Bundesbeschluss über den Transport von Personen und Sachen mit Motorfahrzeugen auf öffentlichen Strassen (Autotransportordnung);Fak.;1408346;738034;52.40430974;18402;1586;718046;318232;399814
+156;15.04.1951;Volksinitiative «zur Sicherstellung der Kaufkraft und Vollbeschäftigung» (Freigeldinitiative);I.;1408275;747604;53.08650654;21676;5399;710770;88486;622284
+157;08.07.1951;Volksinitiative «zur Heranziehung der öffentlichen Unternehmungen zu einem Beitrag an die Kosten der Landesverteidigung»;I.;1409091;529498;37.577275;20836;1080;507582;165713;341869
+158;02.03.1952;Bundesbeschluss betreffend Verlängerung der Geltungsdauer des Bundesbeschlusses über die Bewilligungspflicht für die Eröffnung und Erweiterung von Gasthöfen;Fak.;1415536;567494;40.09039685;27302;1354;538838;248318;290520
+159;30.03.1952;Bundesgesetz über die Förderung der Landwirtschaft und die Erhaltung des Bauernstandes (Landwirtschaftsgesetz);Fak.;1418381;909840;64.14637534;13253;1826;894761;483583;411178
+160;20.04.1952;Volksinitiative «Warenumsatzsteuer»;I.;1417918;696494;49.12089416;13769;1360;681365;129243;552122
+161;18.05.1952;Volksinitiative «zur Rüstungsfinanzierung und zum Schutz der sozialen Errungenschaften»;I.;1418727;764841;53.91037176;12869;1376;750596;328341;422255
+162;06.07.1952;Bundesbeschluss über die Deckung der Rüstungsausgaben;Obl.;1419573;627396;44.19610686;16798;881;609717;256195;353522
+163;05.10.1952;Bundesgesetz betreffend die Abänderung von Bestimmungen über die fiskalische Belastung des Tabaks im Bundesgesetz über die Alters- und Hinterlassenenversicherung;Fak.;1422239;748552;52.63194161;22427;1233;724892;492885;232007
+164;05.10.1952;Bundesbeschluss über den Einbau von Luftschutzräumen in bestehenden Häusern;Fak.;1422239;748552;52.63194161;32724;1230;714598;110681;603917
+165;23.11.1952;Bundesbeschluss über die befristete Weiterführung einer beschränkten Preiskontrolle;Obl.;1423658;803276;56.42338258;21818;2160;779298;489461;289837
+166;23.11.1952;Bundesbeschluss über die Brotgetreideversorgung des Landes;Obl.;1423658;803276;56.42338258;29537;2149;771590;583546;188044
+167;19.04.1953;Bundesgesetz über die Revision des Bundesgesetzes betreffend den Postverkehr;Fak.;1426714;751168;52.65021581;15489;1589;734090;267659;466431
+168;06.12.1953;Bundesbeschluss über die verfassungsmässige Neuordnung des Finanzhaushaltes des Bundes;Obl.;1433363;864082;60.28354297;20084;1617;842381;354149;488232
+169;06.12.1953;Bundesbeschluss über die Ergänzung der Bundesvefassung durch einen Artikel 24quater betreffend den Schutz der Gewässer gegen Verunreinigung;Obl.;1433363;847808;59.14817112;20938;1071;825799;671565;154234
+170;20.06.1954;Bundesbeschluss über den Fähigkeitsausweis im Schuhmacher-, Coiffeur-, Sattler- und Wagnergewerbe;Fak.;1437972;588832;40.94878064;19483;1407;567942;187729;380213
+171;20.06.1954;Bundesbeschluss über ausserordentliche Hilfeleistungen an kriegsgeschädigte Auslandschweizer;Fak.;1437972;584638;40.65711989;31196;1048;552394;243311;309083
+172;24.10.1954;Bundesbeschluss über die Finanzordnung 1955 bis 1958;Obl.;1441310;674142;46.77286635;19331;1096;653715;457527;196188
+173;05.12.1954;Volksinitiative «Schutz der Stromlandschaft und Verleihung Rheinau»;I.;1442668;748439;51.87881065;13995;1000;733444;229114;504330
+174;13.03.1955;Volksinitiative «zum Schutz der Mieter und Konsumenten» (Weiterführung der Preiskontrolle);I.;1447187;803692;55.53477194;16515;5675;781502;392588;381130
+175;04.03.1956;Bundesbeschluss über die befristete Weiterführung einer beschränkten Preiskontrolle (Verlängerung der Gültigkeitsdauer des Verfassungszusatzes vom 26. September 1952);Obl.;1454506;718548;49.40151502;16118;2899;699531;542425;157106
+176;13.05.1956;Volksinitiative «zur Erteilung von Wasserrechtskonzessionen»;I.;1454269;757492;52.08747488;35070;1369;721053;266222;454831
+177;13.05.1956;Bundesbeschluss über Massnahmen zur Stärkung der Wirtschaft des Kantons Graubünden durch Gewährung einer Hilfe an die Holzverzuckerungs-AG;Fak.;1454269;765543;52.64108635;19203;1503;744837;316276;428561
+178;30.09.1956;Bundesbeschluss über die Revision der Brotgetreideordnung des Landes;Obl.;1459824;641604;43.95077763;21263;1206;619135;239890;379245
+179;30.09.1956;Bundesbeschluss über das Volksbegehren betreffend Ausgabenbeschlüsse der Bundesversammlung;Obl.;1459824;639896;43.83377722;30926;1193;607777;276660;331117
+180;03.03.1957;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 22bis über den Zivilschutz;Obl.;1464540;777715;53.10302211;25384;1670;750661;361028;389633
+181;03.03.1957;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 36bis betreffend Rundspruch und Fernsehen;Obl.;1464540;775463;52.94925369;26199;1418;747846;319766;428080
+182;24.11.1957;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 24quinquies betreffend die Atomenergie und den Strahlenschutz;Obl.;1469328;667842;45.45220672;30487;1459;635896;491745;144151
+183;24.11.1957;Bundesbeschluss über die befristete Verlängerung der Geltungsdauer der Uebergangsordnung betreffend die Brotgetreideversorgung des Landes;Obl.;1469328;668363;45.48766511;25985;1315;641063;401768;239295
+184;26.01.1958;Volksinitiative «gegen den Missbrauch wirtschaftlicher Macht»;I.;1469853;761393;51.80062224;17409;1365;742619;192297;550322
+185;11.05.1958;Bundesbeschluss über die verfassungsmässige Neuordnung des Finanzhaushaltes des Bundes;Obl.;1471221;782942;53.21715772;13480;1292;768170;419265;348905
+186;06.07.1958;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 27ter betreffend das Filmwesen;Obl.;1472828;623563;42.33780183;30285;1039;592239;362806;229433
+187;06.07.1958;Bundesbeschluss über das Volksbegehren für die Verbesserung des Strassennetzes;Obl.;1472828;624593;42.40773532;17024;935;606634;515396;91238
+188;26.10.1958;Volksinitiative «zur Einführung der 44-Stunden-Woche»;I.;1476963;913333;61.83858363;9112;1613;902608;315790;586818
+189;07.12.1958;Bundesbeschluss über die Änderung der Bundesverfassung (Kursaalspiele);Obl.;1477043;682936;46.23670401;26268;1143;655525;392620;262905
+190;07.12.1958;Bundesbeschluss betreffend die Genehmigung des zwischen der Schweizerischen Eidgenossenschaft und der Italienischen Republik abgeschlossenen Abkommens über die Nutzbarmachung der Wasserkraft des Spöl;Fak.;1477043;685433;46.40575799;17612;1178;666643;501170;165473
+191;01.02.1959;Bundesbeschluss über die Einführung des Frauenstimm- und -wahlrechts in eidgenössischen Angelegenheiten;Obl.;1480555;987843;66.72112823;7497;1680;978666;323727;654939
+192;24.05.1959;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 22bis über den Zivilschutz;Obl.;1479566;634144;42.86013601;21623;1189;611332;380631;230701
+193;29.05.1960;Bundesbeschluss über die Weiterführung befristeter Preiskontrollmassnahmen;Obl.;1488779;580472;38.98980305;22033;1015;557424;432219;125205
+194;04.12.1960;Bundesbeschluss betreffend die Änderung des Bundesbeschlusses über zusätzliche wirtschaftliche und finanzielle Massnahmen auf dem Gebiete der Milchwirtschaft;Fak.;1493734;743794;49.79427395;31199;2471;710124;400104;310020
+195;05.03.1961;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 26bis betreffend Rohrleitungsanlagen zur Beförderung flüssiger oder gasförmiger Brenn- oder Treibstoffe;Obl.;1496380;939939;62.81419158;35198;2097;902644;644797;257847
+196;05.03.1961;Bundesbeschluss über die Erhebung eines Zollzuschlages auf Treibstoffen zur Finanzierung der Nationalstrassen;Fak.;1496380;946591;63.25873107;11649;2095;932847;434245;498602
+197;22.10.1961;Volksinitiative «zur Einführung der Gesetzesinitiative im Bunde»;I.;1502509;602517;40.10072485;21082;1148;580287;170842;409445
+198;03.12.1961;Bundesbeschluss über die schweizerische Uhrenindustrie (Uhrenstatut);Fak.;1505074;690624;45.88638167;24523;1239;664862;443483;221379
+199;01.04.1962;Volksinitiative «für ein Verbot der Atomwaffen»;I.;1510038;839590;55.60058753;14003;1554;824033;286895;537138
+200;27.05.1962;Bundesbeschluss über die Ergänzung der Bundesverfassung durch einen Artikel 24sexies betreffend den Natur- und Heimatschutz;Obl.;1509718;585357;38.77260522;25360;582;559415;442559;116856
+201;27.05.1962;Bundesgesetz über die Abänderung des Bundesgesetzes betreffend die Taggelder und Reiseentschädigungen des Nationalrates und der Kommission der eidgenössischen Räte;Fak.;1509718;585515;38.78307075;26823;726;557966;176737;381229
+202;04.11.1962;Bundesbeschluss über die Änderung des Artikels 72 der Bundesverfassung (Wahl des Nationalrates);Obl.;1515920;550467;36.31240435;29179;1016;519790;331059;188731
+203;26.05.1963;Volksinitiative «Entscheidungsrecht des Volkes über die Ausrüstung der schweizerischen Armee mit Atomwaffen»;I.;1523595;743469;48.79702283;16783;1387;725299;274061;451238
+204;08.12.1963;Bundesbeschluss über die Weiterführung der Finanzordnung des Bundes (Verlängerung der Geltungsdauer von Art.41ter BV und Ermässigung der Wehrsteuer);Obl.;1532921;640868;41.80698157;28142;970;611756;474786;136970
+205;08.12.1963;Bundesbeschluss betreffend die Ergänzung der Bundesverfassung durch einen Artikel 27quater über Stipendien und andere Ausbildungsbeihilfen;Obl.;1532921;639940;41.74644355;27400;909;611631;479987;131644
+206;02.02.1964;Bundesbeschluss über den Erlass einer allgemeinen Steueramnestie auf den 1. Januar 1965;Obl.;1535746;679971;44.27626704;20519;1352;658100;276236;381864
+207;24.05.1964;Bundesgesetz über die Berufsbildung;Fak.;1539434;570037;37.02899897;21893;1495;546649;375052;171597
+208;06.12.1964;Bundesbeschluss über die Weiterführung befristeter Preiskontrollmassnahmen;Obl.;1547405;606600;39.20111412;24244;1468;580888;461630;119258
+209;28.02.1965;Bundesbeschluss über die Bekämpfung der Teuerung durch Massnahmen auf dem Gebiete des Geld- und Kapitalmarktes und des Kreditwesens;Obl.;1558090;929696;59.66895365;15348;2004;912344;526599;385745
+210;28.02.1965;Bundesbeschluss über die Bekämpfung der Teuerung durch Massnahmen auf dem Gebiete der Bauwirtschaft;Obl.;1558090;930253;59.70470255;13992;2075;914186;507739;406447
+211;16.05.1965;Bundesgesetz betreffend die Änderung des Beschlusses der Bundesversammlung über Milch, Milchprodukte und Speisefette (Milchbeschluss);Fak.;1556375;583161;37.4691832;22628;690;559843;347059;212784
+212;16.10.1966;Bundesbeschluss über die Ergänzung der Bundesverfasssung durch einen Artikel 45bis über die Auslandschweizer;Obl.;1580573;756585;47.86776694;33719;1163;721703;491220;230483
+213;16.10.1966;Volksinitiative «zur Bekämpfung des Alkoholismus»;I.;1580573;759370;48.04396886;12697;1164;745509;174242;571267
+214;02.07.1967;Volksinitiative «gegen die Bodenspekulation»;I.;1591621;604472;37.97838807;13062;1116;590294;192991;397303
+215;18.02.1968;Bundesbeschluss über den Erlass einer allgemeinen Steueramnestie;Obl.;1603763;670402;41.80181236;20158;2089;648155;400900;247255
+216;19.05.1968;Bundesgesetz über die Tabakbesteuerung;Fak.;1606731;593258;36.92329332;17815;833;574610;277229;297381
+217;01.06.1969;Bundesgesetz über die Eidgenössischen Technischen Hochschulen;Fak.;1623226;550592;33.9196144;28246;1033;521313;179765;341548
+218;14.09.1969;Bundesbeschluss über die Ergänzung der Bundesverfassung durch die Artikel 22ter und 22quater (Verfassungsrechtliche Ordnung des Bodenrechts);Obl.;1626593;535830;32.94186069;22977;1035;511818;286282;225536
+56;20.05.1900;Bundesgesetz betreffend die Kranken- und Unfallversicherung mit Einschluss der Militärversicherung;Fak.;745228;497350;66.73796476;5636;1765;489949;148035;341914
+57;04.11.1900;Volksinitiative «für die Proporzwahl des Nationalrates»;I.;747262;439111;58.7626562;17539;7898;413674;169008;244666
+58;04.11.1900;Volksinitiative «für die Volkswahl des Bundesrates und die Vermehrung der Mitgliederzahl»;I.;747262;439498;58.81444527;15734;7316;416448;145926;270522
+59;23.11.1902;Bundesbeschluss betreffend die Unterstützung der öffentlichen Primarschule durch den Bund;Obl.;757320;353177;46.63510801;12449;1732;338996;258567;80429
+60;15.03.1903;Bundesgesetz betreffend den schweizerischen Zolltarif;Fak.;768125;562869;73.27830757;3529;2216;557124;332001;225123
+61;25.10.1903;Bundesgesetz betreffend Ergänzung des Bundesgesetzes über das Bundesstrafrecht der schweizerischen Eidgenossenschaft vom 4. Februar 1853;Fak.;768105;408885;53.23295643;15099;12007;381779;117694;264085
+62;25.10.1903;Volksinitiative «für die Wahl des Nationalrates aufgrund der Schweizer Wohnbevölkerung»;I.;768105;409039;53.25300577;13460;5363;390216;95131;295085
+63;25.10.1903;Bundesbeschluss betreffend Abänderung des Art. 32bis der Bundesverfassung;Obl.;768105;407852;53.09846961;14674;8307;384871;156777;228094
+64;19.03.1905;Bundesbeschluss betreffend Revision des Art. 64 der Bundesverfassung (Ausdehnung des Erfinderschutzes);Obl.;776394;310905;40.04474532;23452;4331;283122;199187;83935
+65;10.06.1906;Bundesgesetz betreffend den Verkehr mit Lebensmitteln und Gebrauchsgegenständen;Fak.;784769;403417;51.4058277;9363;1897;392157;245397;146760
+66;03.11.1907;Militärorganisation der schweizerischen Eidgenossenschaft;Fak.;808916;603931;74.65929713;3566;2807;597558;329953;267605
+67;05.07.1908;Bundesbeschluss betreffend Ergänzung der Bundesverfassung bezüglich des Rechts der Gesetzgebung über das Gewerbewesen;Obl.;809545;394272;48.70291336;67405;1849;325018;232457;92561
+68;05.07.1908;Volksinitiative «für ein Absinthverbot»;I.;809545;399217;49.31375032;15451;4019;379747;241078;138669
+69;25.10.1908;Bundesbeschluss betreffend die Aufnahme eines Zusatzartikels 24bis in die Bundesverfassung betreffend die Gesetzgebung des Bundes über die Nutzbarmachung der Wasserkräfte und über die Fortleitung und die Abgabe der elektrischen Energie;Obl.;809406;390834;48.28652123;14360;15314;361160;304923;56237
+70;23.10.1910;Volksinitiative «für die Proporzwahl des Nationalrates»;I.;823679;513534;62.34637523;6064;1971;505499;240305;265194
+71;04.02.1912;Bundesgesetz über die Kranken- und Unfallversicherung;Fak.;839212;539273;64.25944815;6735;3557;528982;287565;241416
+72;04.05.1913;Bundesbeschluss betreffend Revision der Artikel 69 und 31, 2.Absatz, lit.d, der Bundesverfassung (Bekämpfung menschlicher und tierischer Krankheiten);Obl.;844175;304206;36.03589303;16409;7622;280175;169012;111163
+73;25.10.1914;Bundesbeschluss betreffend Revision von Art. 103 der Bundesverfassung und Aufnahme eines Artikels 114bis in die Bundesverfassung;Obl.;851082;374977;44.05885684;33104;14048;327825;204394;123431
+74;06.06.1915;Bundesbeschluss betreffend Erlass eines Artikels der Bundesverfassung zur Erhebung einer einmaligen Kriegssteuer;Obl.;871476;488167;56.01611519;5646;2943;479578;452117;27461
+75;13.05.1917;Bundesbeschluss betreffend die Einfügung eines Art. 41bis und eines Artikels 42, lit.g, in die Bundesverfasssung (Stempelabgaben);Obl.;894177;376063;42.05688583;11994;6092;357977;190288;167689
+76;02.06.1918;Volksinitiative «für die Einführung der direkten Bundessteuer»;I.;936096;612171;65.39617732;4332;5290;602549;276735;325814
+77;13.10.1918;Volksinitiative «für die Proporzwahl des Nationalrates»;I.;936336;463302;49.48031476;8892;5825;448587;299550;149035
+78;04.05.1919;Bundesbeschluss betreffend Aufnahme eines Art. 24ter in die Bundesverfassung (Schiffahrt);Obl.;937257;505121;53.89354254;19329;8401;477391;399131;78260
+79;04.05.1919;Bundesbeschluss betreffend Erlass eines Artikels der Bundesverfassung über die Erhebung einer neuen ausserordentlichen Kriegssteuer;Obl.;937257;503914;53.76476249;20920;10347;472647;307528;165119
+80;10.08.1919;Bundesbeschluss betreffend die Aufnahme von Uebergangsbestimmungen zu Art. 73 der Bundesverfassung;Obl.;931523;305795;32.82742348;19708;6710;279377;200008;79369
+81;21.03.1920;Bundesgesetz betreffend die Ordnung des Arbeitsverhältnisses;Fak.;957389;577247;60.29388263;36755;30396;510856;254455;256401
+82;21.03.1920;Volksinitiative «für ein Verbot der Errichtung von Spielbanken»;I.;957386;576656;60.23234098;23138;45538;499143;276021;223122
+83;16.05.1920;Bundesbeschluss betreffend den Beitritt der Schweiz zum Völkerbund;Obl.;968327;750159;77.46959447;6502;4039;740589;416870;323719
+84;31.10.1920;Bundesgesetz betreffend die Arbeitszeit beim Betriebe der Eisenbahnen und anderer Verkehrsanstalten;Fak.;964587;656913;68.1030327;8618;1487;646808;369466;277342
+85;30.01.1921;Volksinitiative «für die Unterstellung von unbefristeten oder für eine Dauer von mehr als 15 Jahren abgeschlossenen Staatsverträgen unter das Referendum (Staatsvertragsreferendum)»;I.;967289;610411;63.10533874;48783;3076;558542;398548;160004
+86;30.01.1921;Volksinitiative «für die Aufhebung der Militärjustiz»;I.;967289;610411;63.10533874;15837;2727;591847;198696;393151
+87;22.05.1921;Bundesbeschluss betreffend Aufnahme eines Art. 37bis und eines Art. 37ter in die Bundesverfassung (Automobil und Fahrradverkehr, Luftschiffahrt);Obl.;969522;373921;38.56756216;27957;791;345173;206297;138876
+88;22.05.1921;Bundesbeschluss betreffend Aufnahme eines Artikels 37ter (Luftschiffahrt) in die Bundesverfassung;Obl.;969522;372187;38.38871114;32859;938;338390;210447;127943
+89;11.06.1922;Volksinitiative «betreffend die Erlangung des Schweizerbürgerrechts, Teil I»;I.;976105;445100;45.5996025;30259;1025;413816;65828;347988
+90;11.06.1922;Volksinitiative «betreffend die Ausweisung von Ausländern, Teil II»;I.;976105;445100;45.5996025;25991;1028;418081;159200;258881
+91;11.06.1922;Volksinitiative «betreffend die Wählbarkeit der Bundesbeamten in den Nationalrat»;I.;976105;445100;45.5996025;26433;1017;417650;160181;257469
+92;24.09.1922;Bundesgesetz betreffend Abänderung des Bundesstrafrechts vom 4. Februar 1853 in bezug auf Verbrechen gegen die verfassungsmässige Ordnung und innere Sicherheit und in bezug auf die Einführung des bedingten Strafvollzugs;Fak.;982567;690844;70.31011626;8058;2160;680626;303794;376832
+93;03.12.1922;Volksinitiative «für die Einmalige Vermögensabgabe»;I.;992523;856148;86.25976426;7525;1969;846654;109702;736952
+94;18.02.1923;Volksinitiative «Schutzhaft»;I.;989661;526876;53.23802797;25109;1016;500751;55145;445606
+95;18.02.1923;Bundesbeschluss über die Ratifikation des am 7. August 1921 in Paris unterzeichneten Abkommens zwischen der Schweiz und Frankreich zur Regelung der Handelsbeziehungen und des freundnachbarlichen Grenzverkehrs zwischen den ehemaligen Freizonen Hochsavoyens;Fak.;989661;528736;53.42597112;19515;1024;508197;93892;414305
+96;15.04.1923;Volksinitiative «zur Wahrung der Volksrechte in der Zollfrage»;I.;990202;651159;65.76021862;10813;1450;638896;171020;467876
+97;03.06.1923;Bundesbeschluss betreffend die Revision der Art. 31 und 32bis (Alkoholwesen) der Bundesverfassung;Obl.;985774;636591;64.57778355;11931;1575;623085;262688;360397
+98;17.02.1924;Bundesgesetz betreffend Abänderung von Art. 41 des Fabrikgesetzes vom 18. Juni 1914 / 27. Juni 1919;Fak.;995663;766505;76.98438126;7676;1981;756848;320668;436180
+99;24.05.1925;Volksinitiative «für eine Invaliditäts-, Alters- und Hinterlassenenversicherung» (AHV);I.;1008865;688402;68.23529412;13577;2169;672656;282527;390129
+100;25.10.1925;Bundesbeschluss betreffend Aufenthalt und Niederlassung der Ausländer;Obl.;1017692;691544;67.95218986;71838;5053;614653;382381;232272
+101;06.12.1925;Bundesbeschluss betreffend die Alters-, Hinterlassenen- und Invalidenversicherung;Obl.;1019522;643066;63.07524507;12809;1786;628471;410988;217483
+102;05.12.1926;Bundesbeschluss über die Aufnahme eines neuen Artikels 23bis in die Bundesverfassung betreffend die Getreideversorgung des Landes;Obl.;1034547;752234;72.71143795;11378;2300;738556;366507;372049
+103;15.05.1927;Bundesbeschluss betreffend die Abänderung des Artikels 30 der Bundesverfassung;Obl.;1038136;574214;55.31202078;39566;1137;533511;334206;199305
+104;15.05.1927;Bundesgesetz über den Automobil- und Fahrradverkehr;Fak.;1038136;600601;57.85378794;25652;1275;573674;230287;343387
+105;20.05.1928;Bundesbeschluss betreffend Revision des Art. 44 der Bundesverfassung (Massnahmen gegen die Ueberfremdung);Obl.;1050683;475391;45.24590195;26688;1238;447465;316250;131215
+106;02.12.1928;Volksinitiative «Kursaalspiele» (Spielbanken);I.;1067754;592849;55.522995;20248;1678;570923;296395;274528
+107;03.03.1929;Volksinitiative «Getreideversorgung»;I.;1071934;720983;67.26001787;15926;9446;690491;18487;672004
+108;03.03.1929;Bundesgesetz betreffend Abänderung von Art.14 des Bundesgesetzes vom 10. Oktober 1902 betreffend den schweizerischen Zolltarif;Fak.;1071934;720983;67.26001787;34359;2288;684336;454535;229801
+109;12.05.1929;Volksinitiative «betreffend die Gesetzgebung über den Strassenverkehr»;I.;1075950;700279;65.08471583;29684;2163;668432;248350;420082
+110;12.05.1929;Volksinitiative «für ein Branntweinverbot»;I.;1075950;714510;66.40736094;18274;1718;694518;226794;467724
+111;06.04.1930;Bundesbeschluss betreffend die Revision der Art. 31 und 32bis der Bundesverfassung und die Aufnahme eines neuen Art. 32quater (Alkoholwesen);Obl.;1093191;827636;75.70827056;9980;1767;815889;494248;321641
+112;08.02.1931;Bundesbeschluss über das Volksbegehren um Revision des Artikels 12 der Bundesverfassung (Ordensverbot);Obl.;1100670;460440;41.8327019;39649;2142;418649;293845;124804
+113;15.03.1931;Bundesbeschluss über die Revision des Art. 72 der Bundesverfassung (Wahl des Nationalrats);Obl.;1104113;590442;53.47659162;38517;2490;549435;296053;253382
+114;15.03.1931;Bundesbeschluss über die Revision der Art. 76, 96 , Abs. 1, und 105, Abs. 2, der Bundesverfassung (Amtsdauer des Nationalrats, des Bundesrats und des Bundeskanzlers);Obl.;1104113;590442;53.47659162;33477;2108;554857;297938;256919
+115;06.12.1931;Bundesgesetz über die Alters- und Hinterlassenenversicherung;Fak.;1124881;879063;78.14719957;24846;2673;851544;338032;513512
+116;06.12.1931;Bundesgesetz über die Besteuerung des Tabaks;Fak.;1124881;879063;78.14719957;27498;2593;848972;423523;425449
+117;28.05.1933;Bundesgesetz über die vorübergehende Herabsetzung der Besoldungen, Gehälter und Löhne der im Dienste des Bundes stehenden Personen;Fak.;1154963;929849;80.508986;11164;1959;916726;411536;505190
+118;11.03.1934;Bundesgesetz über den Schutz der öffentlichen Ordnung;Fak.;1167508;922184;78.98738167;11431;2682;908071;419399;488672
+119;24.02.1935;Bundesgesetz über die Abänderung des Bundesgesetzes vom 12. April 1907 betreffend die Militärorganisation (Neuordnung der Ausbildung);Fak.;1189573;950680;79.917752;11459;2267;936954;507434;429520
+120;05.05.1935;Bundesgesetz über die Regelung der Beförderung von Gütern und Tieren mit Motorfahrzeugen auf öffentlichen Strassen (Verkehrsteilungsgesetz);Fak.;1190054;751726;63.16738568;30393;1210;720123;232954;487169
+121;02.06.1935;Volksinitiative «zur Bekämpfung der Wirtschaftskrise»;I.;1194129;1007285;84.35311428;12575;2043;992667;425242;567425
+122;08.09.1935;Volksinitiative «für eine Totalrevision der Bundesverfassung»;I.;1193941;727063;60.89605768;17853;1497;707713;196135;511578
+123;28.11.1937;Volksinitiative «für ein Verbot der Freimaurerei»;I.;1187637;783116;65.93900325;30578;2231;750307;234980;515327
+124;20.02.1938;Bundesbeschluss über die Revision der Art. 107 und 116 der Bundesverfassung (Anerkennung des Rätoromanischen als Nationalsprache);Obl.;1216756;661022;54.32658643;24692;8512;627818;574991;52827
+125;20.02.1938;Volksinitiative «betreffend die dringlichen Bundesbeschlüsse und die Wahrung der demokratischen Volksrechte»;I.;1216756;661022;54.32658643;63433;21756;575833;87638;488195
+126;20.02.1938;Volksinitiative «Private Rüstungsindustrie»;I.;1216756;661022;54.32658643;52896;35542;484951;65938;419013
+127;03.07.1938;Schweizerisches Strafgesetzbuch;Fak.;1219755;695939;57.05563822;23455;2016;670468;358438;312030
+128;27.11.1938;Bundesbeschluss betreffend die Uebergangsordnung des Finanzhaushaltes;Obl.;1223336;738307;60.35193929;30951;2431;704925;509387;195538
+129;22.01.1939;Volksinitiative «zur Wahrung der verfassungsmässigen Rechte der Bürger» (Erweiterung der Verfassungsgerichtsbarkeit);I.;1223536;569561;46.550408;77687;3211;488663;141323;347340
+130;22.01.1939;Bundesbeschluss über das Volksbegehren für Einschränkung der Anwendung der Dringlichkeitsklausel;Obl.;1223536;569561;46.550408;65459;3046;501056;346024;155032
+131;04.06.1939;Bundesbeschluss betreffend Ergänzung der Bundesverfassung für die Eröffnung und teilweise Deckung von Krediten zum Ausbau der Landesverteidigung und zur Bekämpfung der Arbeitslosigkeit;Obl.;1226873;671453;54.72881056;24871;1420;645162;445622;199540
+132;03.12.1939;Bundesgesetz über die Änderung des Dienstverhältnisses und der Versicherung des Bundespersonals;Fak.;1241404;792899;63.87114912;19524;2102;771273;290238;481035
+133;01.12.1940;Bundesgesetz über die Abänderung der Art. 103 und 104 des Bundesgesetzes vom 12. April 1907 betreffend die Militärorganisation (Einführung des obligatorischen militärischen Vorunterrichts);Fak.;1254578;798085;63.61382074;14716;3122;780247;345430;434817
+134;09.03.1941;Volksinitiative «zur Neuordnung des Alkoholwesens»;I.;1261361;774843;61.42912299;14681;2422;757740;304867;452873
+135;25.01.1942;Volksinitiative «für die Wahl des Bundesrates durch das Volk und die Erhöhung der Mitgliederzahl»;I.;1278688;792424;61.97164594;13381;3311;775732;251605;524127
+136;03.05.1942;Volksinitiative «für die Reorganisation des Nationalrates»;I.;1283487;660818;51.48614672;30543;1825;628450;219629;408821
+137;29.10.1944;Bundesgesetz über den unlauteren Wettbewerb;Fak.;1324498;674469;50.9226137;22482;2569;649418;343648;305770
+138;21.01.1945;Bundesgesetz über die Schweizerischen Bundesbahnen;Fak.;1327961;702401;52.89319491;15300;1461;685640;388831;296809
+139;25.11.1945;Bundesbeschluss über das Volksbegehren «Für die Familie»;Obl.;1341980;745227;55.53190062;24738;1610;718879;548601;170278
+140;10.02.1946;Bundesbeschluss über das Volksbegehren betreffend eine Gütertransportordnung;Obl.;1347483;878675;65.20861488;14857;2317;861501;289935;571566
+141;08.12.1946;Volksinitiative «Recht auf Arbeit»;I.;1359392;681489;50.1318972;28852;2479;650158;124792;525366
+142;18.05.1947;Volksinitiative «Wirtschaftsreform und Rechte der Arbeit»;I.;1364771;811088;59.43033666;24694;2734;783660;244415;539244
+143;06.07.1947;Bundesbeschluss über eine Revision der Wirtschaftsartikel der Bundesverfassung;Obl.;1371760;1092849;79.66765323;39695;1937;1051217;556803;494414
+144;06.07.1947;Bundesgesetz über die Alters- und Hinterlassenenversicherung;Fak.;1371760;1092849;79.66765323;13573;1744;1077532;862036;215496
+145;14.03.1948;Bundesbeschluss über die Ordnung der schweizerischen Zuckerwirtschaft;Fak.;1376490;778427;56.55159137;22857;1517;754053;272701;481352
+146;22.05.1949;Bundesbeschluss über die Revision von Artikel 39 der Bundesverfassung betreffend die Schweizerische Nationalbank;Obl.;1385582;845867;61.04777631;81909;1485;762473;293650;468823
+147;22.05.1949;Bundesgesetz über die Ergänzung des Bundesgesetzes vom 13. Juni 1928 betreffend Massnahmen gegen die Tuberkulose;Fak.;1385582;845867;61.04777631;28241;1211;816415;202863;613552
+148;11.09.1949;Volksinitiative «für die Rückkehr zur direkten Demokratie»;I.;1389856;590950;42.51879331;35655;1941;553354;280755;272599
+149;11.12.1949;Bundesgesetz betreffend Abänderung des Bundesgesetzes vom 30. Juni 1927 über das Dienstverhältnis der Bundesbeamten;Fak.;1394818;1004362;72.0066704;14552;1865;987945;546160;441785
+1;06.06.1848;Totalrevision vom 12. September 1848;Obl.;;;;;;199904;145584;54320
+2;14.01.1866;Festsetzung von Mass und Gewicht;Obl.;;;;;;315578;159182;156396
+3;14.01.1866;Gleichstellung der Bürger in Bezug auf Niederlassung und Gesetzgebung;Obl.;;;;;;319433;170032;149401
+4;14.01.1866;Stimmrecht der Niedergelassenen in Gemeindeangelegenheiten;Obl.;;;;;;318762;137321;181441
+5;14.01.1866;Besteuerung und zivilrechtliche Verhältnisse der Niedergelassenen;Obl.;;;;;;315754;125924;189830
+6;14.01.1866;Stimmrecht der Niedergelassenen in kantonalen Angelegenheiten;Obl.;;;;;;319148;153469;165679
+7;14.01.1866;Glaubens- und Kultusfreiheit;Obl.;;;;;;320621;157629;162992
+8;14.01.1866;Ausschliessung einzelner Strafarten;Obl.;;;;;;316983;108364;208619
+9;14.01.1866;Schutz des geistigen Eigentums;Obl.;;;;;;314862;137476;177386
+10;14.01.1866;Verbot der Lotterie und Hasardspiele;Obl.;;;;;;315850;139062;176788
+11;12.05.1872;Totalrevision;Obl.;;;;;;516468;255609;260859
+12;19.04.1874;Totalrevision;Obl.;;;;;;538212;340199;198013
+13;23.05.1875;Bundesgesez betreffend Feststellung und Beurkundung des Zivilstandes und die Ehe;Fak.;;;;;;418268;213199;205069
+14;23.05.1875;Bundesgesez über die politische Stimmberechtigung der Schweizerbürger;Fak.;;;;;;409846;202583;207263
+15;23.04.1876;Bundesgesez über die Ausgabe und Einlösung von Banknoten;Fak.;;;;;;313321;120068;193253
+16;09.07.1876;Bundesgesez betreffend die Militärpflichtersazsteuer;Fak.;;;;;;341051;156157;184894
+17;21.10.1877;Bundesgesez betreffend die Arbeit in den Fabriken;Fak.;;;;;;352061;181204;170857
+18;21.10.1877;Bundesgesez betreffend den Militärpflichtersaz;Fak.;;;;;;351606;170223;181383
+19;21.10.1877;Bundesgesez betreffend die politischen Rechte der Niedergelassenen und Aufenthalter und den Verlust der politischen Rechte der Schweizerbürger;Fak.;;;;;;344787;131557;213230
+20;19.01.1879;Bundesgesez betreffend Gewährung von Subsidien für Alpenbahnen;Fak.;636996;;;;;394302;278731;115571
+21;18.05.1879;Bundesbeschluss betreffend Abänderung von Artikel 65 der Bundesverfassung (Todesstrafe);Obl.;633138;;;;;382073;200485;181588
+22;31.10.1880;Bundesbeschluss betreffend den durch das Volksbegehren vom 3. August 1880 gestellten Antrag auf Revision der Bundesverfassung;Obl.;641576;;;leere und ungültige Stimmzettel zusammen: 5305;;381225;121099;260126
+23;30.07.1882;Bundesbeschluss betreffend den Erfindungsschutz;Obl.;635249;;;;;298274;141616;156658
+24;30.07.1882;Bundesgesez betreffend Massnahmen gegen gemeingefährliche Epidemien;Fak.;635249;;;;;322367;68027;254340
+25;26.11.1882;Bundesbeschluss betreffend die Vollziehung des Artikels 27 der Bundesverfassung;Fak.;648000;;;;4829;490149;172010;318139
+26;11.05.1884;Bundesgesetz betreffend die Organisation des eidgenössischen Justiz- und Polizeidepartements;Fak.;634299;381140;60.08838103;;16495;364645;149729;214916
+27;11.05.1884;Bundesbeschluss betreffend die Patenttaxen der Handelsreisenden;Fak.;634299;381140;60.08838103;;17370;363745;174195;189550
+28;11.05.1884;Bundesgesetz betreffend die Ergänzung des Bundesstrafrechtes vom 4. Februar 1853;Fak.;634299;381140;60.08838103;;19146;361841;159068;202773
+29;11.05.1884;Bundesbeschluss betreffend Gewährung eines Beitrags von 10'000 Franken an die Kanzleikosten der schweizerischen Gesandtschaft in Washington;Fak.;634299;381140;60.08838103;;23455;357552;137824;219728
+30;25.10.1885;Bundesbeschluss betreffend theilweise Änderung der Bundesverfassung der schweizerischen Eidgenossenschaft;Obl.;641689;387713;60.42070224;;;387713;230250;157463
+31;15.05.1887;Bundesgesetz betreffend gebrannte Wasser;Fak.;649494;405618;62.45138523;;;405618;267122;138496
+32;10.07.1887;Bundesbeschluss betreffend Ergänzung des Artikels 64 der Bundesverfassung vom 29. Mai 1874;Obl.;647071;274346;42.39812942;11463;1515;261368;203506;57862
+33;17.11.1889;Bundesgesetz über Schuldbetreibung und Konkurs;Fak.;661225;468618;70.87118606;3833;2547;462238;244317;217921
+34;26.10.1890;Bundesbeschluss betreffend Ergänzung der Bundesverfassung vom 29. Mai 1874 durch einen Zusatz bezüglich des Gesetzgebungsrechtes über Unfall- und Krankenversicherung;Obl.;663531;396448;59.74822578;12409;8611;375428;283228;92200
+35;15.03.1891;Bundesgesetz betreffend die arbeitsunfähig gewordenen eidgenössischen Beamten und Angestellten;Fak.;657779;451328;68.61392656;2984;2516;445828;91851;353977
+36;05.07.1891;Bundesbeschluss betreffend Revision der Bundesverfassung;Obl.;641692;320356;49.92363938;15398;1330;303628;183029;120599
+37;18.10.1891;Bundesbeschluss betreffend Revision von Art. 39 der Bundesverfassung;Obl.;654372;405483;61.96521245;13400;1890;390193;231578;158615
+38;18.10.1891;Bundesgesetz betreffend den schweizerischen Zolltarif;Fak.;654372;402812;61.55703484;22034;1840;378938;220004;158934
+39;06.12.1891;Bundesbeschluss betreffend den Ankauf der schweizerischen Centralbahn;Fak.;653792;420135;64.26126352;0;0;420135;130729;289406
+40;20.08.1893;Volksinitiative «Verbot des Schlachtens ohne vorherige Betäubung»;I.;668913;328983;49.18173215;8600;1755;318628;191527;127101
+41;04.03.1894;Bundesbeschluss vom 20. Dezember 1893 betreffend Ergänzung der Bundesverfassung durch einen Zusatz bezüglich des Rechts der Gesetzgebung über das Gewerbewesen;Obl.;676854;316707;46.79103618;21454;1048;294205;135713;158492
+42;03.06.1894;Volksinitiative «zur Gewährleistung des Rechts auf Arbeit»;I.;680731;392027;57.58912111;5865;1993;384169;75880;308289
+43;04.11.1894;Volksinitiative «zur Abgabe eines Teils der Zolleinnahmen an die Kantone»;I.;690250;502864;72.85244477;5524;1239;496101;145462;350639
+44;03.02.1895;Bundesgesetz betreffend die Vertretung der Schweiz im Auslande;Fak.;689180;319281;46.32766476;11992;4781;302508;124517;177991
+45;29.09.1895;Bundesbeschluss über die Ergänzung der Bundesverfassung durch Zusatzbestimmungen betreffend die Einführung des Zündhölzchenmonopols;Obl.;690592;335818;48.62755433;9442;2236;324283;140174;184109
+46;03.11.1895;Bundesbeschluss über die Revision der Militärartikel der Bundesverfassung;Obl.;697131;473178;67.87504787;7066;1277;464929;195178;269751
+47;04.10.1896;Bundesgesetz betreffend die Gewährleistung beim Viehhandel;Fak.;714033;411308;57.60350012;20483;6827;383998;174880;209118
+48;04.10.1896;Bundesgesetz über das Rechnungswesen der Eisenbahnen;Fak.;714033;412989;57.83892341;10095;3089;399805;223228;176577
+49;04.10.1896;Bundesgesetz betreffend die Disciplinarstrafordnung für die eidgenössische Armee;Fak.;714033;411173;57.58459343;15717;7295;388161;77169;310992
+50;28.02.1897;Bundesgesetz über die Errichtung der schweizerischen Bundesbank;Fak.;715342;462143;64.60448289;8198;2197;451748;195764;255984
+51;11.07.1897;Bundesbeschluss über die Revision des Art. 24 der Bundesverfassung;Obl.;716883;277184;38.66516572;25444;6077;245663;156102;89561
+52;11.07.1897;Bundesbeschluss betreffend Bundesgesetzgebung über den Verkehr mit Nahrungs- und Genussmitteln und mit solchen Gebrauchs- und Verbrauchsgegenständen, welche das Leben oder die Gesundheit gefährden können;Obl.;716883;277852;38.7583469;24023;4624;249205;162250;86955
+53;20.02.1898;Bundesgesetz betreffend die Erwerbung und den Betrieb von Eisenbahnen für Rechnung des Bundes und die Organisation der Verwaltung der schweizerischen Bundesbahnen;Fak.;734644;573565;78.07386979;2754;1459;569352;386634;182718
+54;13.11.1898;Bundesbeschluss betreffend Revision des Artikels 64 der Bundesverfassung;Obl.;734075;387226;52.75019582;15922;4628;366676;264914;101762
+55;13.11.1898;Bundesbeschluss betreffend Aufnahme eines Artikels 64bis in die Bundesverfassung;Obl.;734075;387593;52.80019072;15300;3903;368390;266610;101780
