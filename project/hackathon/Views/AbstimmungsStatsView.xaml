@@ -10,12 +10,15 @@
         <Style TargetType="{x:Type ListView}">
             <Style.Resources>
                 <DataTemplate DataType="{x:Type Data:AbstimmungsStats}">
-            <Grid>
+            <Grid Margin="5,5,5,5" Width="100">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100"></RowDefinition>
                     <RowDefinition Height="20"></RowDefinition>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" Text="{Binding AnzahlNein}"></TextBlock>
+                        <Ellipse Grid.Row="0"  Fill="Red" Width="100" Height="100"></Ellipse>
+                        <Path Grid.Row="0" Fill="Green" Data="M50,50 L0,50 A50,50 0 0 1 100,50 z" Margin="0,0,0,0">
+                        </Path>
+                        <!--<TextBlock Grid.Row="0" Text="{Binding AnzahlNein}"></TextBlock>-->
                 <TextBlock Grid.Row="1" Text="{Binding AnzahlJa}"></TextBlock>
             </Grid>
         </DataTemplate>
