@@ -7,7 +7,7 @@
         <Style TargetType="{x:Type ListBox}">
             <Style.Resources>
                 <DataTemplate DataType="{x:Type data:Kanton}">
-                    <Grid x:Name="DataGrid">
+                    <Grid x:Name="DataGrid" RenderTransformOrigin="0.5,0.5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition Width="*" />
@@ -16,19 +16,21 @@
                                Source="{Binding WappenUrl}" RenderOptions.BitmapScalingMode="HighQuality" />
                         <TextBlock Grid.Column="1" FontSize="20" Margin="10" Text="{Binding Name}"></TextBlock>
                         <Grid.RenderTransform>
-                            <ScaleTransform ScaleX="1.0" ScaleY="1.0"></ScaleTransform>
+                            <ScaleTransform ScaleX="1.0" ScaleY="1.0" CenterX="150" CenterY="50"></ScaleTransform>
+
                         </Grid.RenderTransform>
+
                     </Grid>
                     <DataTemplate.Triggers>
                         <EventTrigger RoutedEvent="Mouse.MouseEnter">
                             <BeginStoryboard>
                                 <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleX">
-                                    <DoubleAnimation To="1.15" Duration="0:0:0.2" />
+                                    <DoubleAnimation To="1.1" Duration="0:0:0.2" />
                                 </Storyboard>
                             </BeginStoryboard>
                             <BeginStoryboard>
-                            <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleY">
-                                    <DoubleAnimation To="1.15" Duration="0:0:0.2" />
+                                <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleY">
+                                    <DoubleAnimation To="1.1" Duration="0:0:0.2" />
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -49,7 +51,6 @@
             </Style.Resources>
         </Style>
     </Window.Resources>
-
     <DockPanel>
         <Grid DockPanel.Dock="Top" Height="40" Margin="5,5,5,0">
             <Grid.ColumnDefinitions>
@@ -57,15 +58,18 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition Width="50"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <TextBlock x:Name="MinYear" Text="{Binding Minimum, ElementName=TopSlider}" TextAlignment="Center" VerticalAlignment="Center"/>
-            <Slider x:Name="TopSlider"  Grid.Column="1"
-                Minimum="{Binding MinYear}" Maximum="{Binding MaxYear}" TickPlacement="BottomRight" TickFrequency="10" IsSnapToTickEnabled="True"   
-                VerticalContentAlignment="Center" >
+            <TextBlock x:Name="MinYear" Text="{Binding Minimum, ElementName=TopSlider}" TextAlignment="Center"
+                       VerticalAlignment="Center" />
+            <Slider x:Name="TopSlider" Grid.Column="1"
+                    Minimum="{Binding MinYear}" Maximum="{Binding MaxYear}" TickPlacement="BottomRight"
+                    TickFrequency="10" IsSnapToTickEnabled="True"
+                    VerticalContentAlignment="Center">
             </Slider>
-            <TextBlock Grid.Column="2" x:Name="MaxYear" Text="{Binding Maximum, ElementName=TopSlider}" TextAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="2" x:Name="MaxYear" Text="{Binding Maximum, ElementName=TopSlider}"
+                       TextAlignment="Center" VerticalAlignment="Center" />
         </Grid>
         <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1"
-                 SelectionMode="Extended" Margin ="10"
+                 SelectionMode="Extended" Margin="10"
                  DockPanel.Dock="Left" Width="300" ItemsSource="{Binding Kantone}">
         </ListBox>
         <Border Margin="10" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1">
