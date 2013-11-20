@@ -26,7 +26,6 @@
         </Grid.RowDefinitions>
         <TextBlock Text="Abstimmungs Statistiks"></TextBlock>
         <WrapPanel x:Name="AbstimmungsPanel">
-            
         </WrapPanel>
     </Grid>
 </UserControl>
