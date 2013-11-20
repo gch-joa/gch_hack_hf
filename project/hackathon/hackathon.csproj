@@ -55,6 +55,7 @@
     </ApplicationDefinition>
     <Compile Include="data\Kanton.cs" />
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="ViewModel\AbstimmungsViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="Views\AbstimmungsStatsView.xaml.cs">
       <DependentUpon>AbstimmungsStatsView.xaml</DependentUpon>
