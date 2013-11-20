@@ -129,6 +129,26 @@
     <Resource Include="data\wappen\ur.png" />
     <Resource Include="data\wappen\zh.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\wappen\ag.png" />
+    <Resource Include="data\wappen\ai.png" />
+    <Resource Include="data\wappen\ar.png" />
+    <Resource Include="data\wappen\fr.png" />
+    <Resource Include="data\wappen\gb.png" />
+    <Resource Include="data\wappen\ge.png" />
+    <Resource Include="data\wappen\gl.png" />
+    <Resource Include="data\wappen\ju.png" />
+    <Resource Include="data\wappen\lu.png" />
+    <Resource Include="data\wappen\ne.png" />
+    <Resource Include="data\wappen\nw.png" />
+    <Resource Include="data\wappen\ow.png" />
+    <Resource Include="data\wappen\sh.png" />
+    <Resource Include="data\wappen\tg.png" />
+    <Resource Include="data\wappen\ti.png" />
+    <Resource Include="data\wappen\vd.png" />
+    <Resource Include="data\wappen\vs.png" />
+    <Resource Include="data\wappen\zg.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

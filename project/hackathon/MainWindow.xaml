@@ -4,22 +4,22 @@
         xmlns:Views="clr-namespace:hackathon.Views"
         Title="Abstimmungs Analyse" Height="500" Width="800">
     <Window.Resources>
-    <Style TargetType="{x:Type ListBox}">
-        <Style.Resources>
-            <DataTemplate DataType="{x:Type data:Kanton}">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.Column="0" Margin="10" Stretch="Uniform" Height="30"  Source="{Binding WappenUrl}"></Image>
+        <Style TargetType="{x:Type ListBox}">
+            <Style.Resources>
+                <DataTemplate DataType="{x:Type data:Kanton}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image x:Name="WappenImage" Grid.Column="0" Margin="10" Stretch="Uniform" Height="30"
+                               Source="{Binding WappenUrl}" RenderOptions.BitmapScalingMode="HighQuality" />
                         <TextBlock Grid.Column="1" FontSize="20" Margin="10" Text="{Binding Name}"></TextBlock>
                     </Grid>
-                
-            </DataTemplate>
-        </Style.Resources>
-    </Style>
-        </Window.Resources>
+                </DataTemplate>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
     <DockPanel>
         <Grid DockPanel.Dock="Top" Height="40" Margin="5,5,5,0">
             <Grid.ColumnDefinitions>
@@ -27,15 +27,18 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition Width="50"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <TextBlock x:Name="MinYear" Text="{Binding Minimum, ElementName=TopSlider}" TextAlignment="Center" VerticalAlignment="Center"/>
-            <Slider x:Name="TopSlider"  Grid.Column="1"
-                Minimum="{Binding MinYear}" Maximum="{Binding MaxYear}" TickPlacement="BottomRight" TickFrequency="10" IsSnapToTickEnabled="True"   
-                VerticalContentAlignment="Center" >
+            <TextBlock x:Name="MinYear" Text="{Binding Minimum, ElementName=TopSlider}" TextAlignment="Center"
+                       VerticalAlignment="Center" />
+            <Slider x:Name="TopSlider" Grid.Column="1"
+                    Minimum="{Binding MinYear}" Maximum="{Binding MaxYear}" TickPlacement="BottomRight"
+                    TickFrequency="10" IsSnapToTickEnabled="True"
+                    VerticalContentAlignment="Center">
             </Slider>
-            <TextBlock Grid.Column="2" x:Name="MaxYear" Text="{Binding Maximum, ElementName=TopSlider}" TextAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="2" x:Name="MaxYear" Text="{Binding Maximum, ElementName=TopSlider}"
+                       TextAlignment="Center" VerticalAlignment="Center" />
         </Grid>
         <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1"
-                 SelectionMode="Extended" Margin ="10"
+                 SelectionMode="Extended" Margin="10"
                  DockPanel.Dock="Left" Width="300" ItemsSource="{Binding Kantone}">
         </ListBox>
         <Border Margin="10" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1">
