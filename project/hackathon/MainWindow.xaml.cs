@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using hackathon.ViewModel;
+using hackathon.data;
 
 namespace hackathon
 {
@@ -27,5 +28,11 @@ namespace hackathon
             InitializeComponent();
 	        DataContext = new MainViewModel();
         }
+
+	    private void KantonInfo_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+	    {
+		    this.InfoPane.Abstimmungen = ((MainViewModel)DataContext).Abstimmungen;
+		    this.InfoPane.AktivKantone = (Kanton)this.KantonInfo.Items.CurrentItem;
+	    }
     }
 }

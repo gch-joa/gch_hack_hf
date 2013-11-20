@@ -24,12 +24,13 @@ namespace hackathon.Views
 	public partial class AbstimmungsStatsView : UserControl
 	{
 		public static readonly DependencyProperty AktivKantoneProperty =
-			DependencyProperty.Register("AktivKantone", typeof(Kanton), typeof(AbstimmungsStatsView));
+			DependencyProperty.Register("AktivKantone", typeof(Kanton), typeof(AbstimmungsStatsView), new PropertyMetadata(null));
 
 		public AbstimmungsStatsView()
 		{
 			InitializeComponent();
 			DataContext = new AbstimmungsViewModel();
+			
 		}
 
 		public Kanton AktivKantone
@@ -41,8 +42,20 @@ namespace hackathon.Views
 			set
 			{
 				SetValue(AktivKantoneProperty, value);
+				((AbstimmungsViewModel)DataContext).AktivKanton = value;
 			}
 		}
 
+		public IList<Abstimmung> Abstimmungen
+		{
+			get
+			{
+				return ((AbstimmungsViewModel)DataContext).Abstimmungen;
+			}
+			set
+			{
+				((AbstimmungsViewModel)DataContext).Abstimmungen = value;
+			}
+		}
 	}
 }

@@ -87,7 +87,7 @@
             </Grid.ColumnDefinitions>
             <TextBlock x:Name="MinYear" Text="{Binding Minimum, ElementName=TopSlider}" TextAlignment="Center"
                        VerticalAlignment="Center" />
-            <Slider x:Name="TopSlider" Grid.Column="1"
+            <Slider x:Name="TopSlider" Grid.Column="1" Value="{Binding AktivYear}"
                     Minimum="{Binding MinYear}" Maximum="{Binding MaxYear}" TickPlacement="BottomRight"
                     TickFrequency="1" IsSnapToTickEnabled="True"
                     VerticalContentAlignment="Center">
@@ -105,7 +105,7 @@
             <TextBlock Text="{Binding Kantone/Name}" FontSize="40" Grid.Row="0" Margin="5"></TextBlock> 
             <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="0"
                  SelectionMode="Single"  ScrollViewer.HorizontalScrollBarVisibility="Hidden" Grid.Row="1"
-                 Width="300" ItemsSource="{Binding Kantone}" >
+                 Width="300" ItemsSource="{Binding Kantone}" SelectionChanged="KantonInfo_OnSelectionChanged">
             </ListBox>
 
             </Grid>

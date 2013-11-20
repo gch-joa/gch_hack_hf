@@ -21,17 +21,47 @@ namespace hackathon.ViewModel
 
 		private int _maxYear;
 
+		private int _aktivYear;
+
+		private IList<Abstimmung> _abstimmungen;
+
 		public MainViewModel()
 		{
 			var loader = new Loader();
-			IList<Abstimmung> abstimmung = loader.Load();
+			_abstimmungen = loader.Load();
 
-			var subList = abstimmung.Where(i => i.KantonJaStimmen.Count > 0);
+			var subList = _abstimmungen.Where(i => i.KantonJaStimmen.Count > 0);
 			this.MaxYear = Convert.ToInt16(subList.Max(p => p.Datum).ToString("yyyy"));
 			this.MinYear = Convert.ToInt16(subList.Min(p => p.Datum).ToString("yyyy"));
 
 			_cantons = new ListCollectionView(loader.GetKantone().ToList());
 			_cantons.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));
+			_aktivYear = this.MaxYear;
+		}
+
+		public IList<Abstimmung> Abstimmungen
+		{
+			get
+			{
+				return this._abstimmungen;
+			}
+			set
+			{
+				this._abstimmungen = value;
+			}
+		}
+
+		public int AktivYear
+		{
+			get
+			{
+				return this._aktivYear;
+			}
+			set
+			{
+				this._aktivYear = value;
+				this.OnPropertyChanged();
+			}
 		}
 
 		public ICollectionView Kantone
