@@ -6,6 +6,13 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Abstimmungs Statistiks"></TextBlock>
+        <WrapPanel x:Name="AbstimmungsPanel">
             
+        </WrapPanel>
     </Grid>
 </UserControl>
