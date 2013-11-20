@@ -102,9 +102,9 @@
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
             
-            <TextBlock Text="kantone" FontSize="40" Grid.Row="0" Margin="5"></TextBlock> 
+            <TextBlock Text="{Binding Kantone/Name}" FontSize="40" Grid.Row="0" Margin="5"></TextBlock> 
             <ListBox x:Name="KantonInfo" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="0"
-                 SelectionMode="Extended"  ScrollViewer.HorizontalScrollBarVisibility="Hidden" Grid.Row="1"
+                 SelectionMode="Single"  ScrollViewer.HorizontalScrollBarVisibility="Hidden" Grid.Row="1"
                  Width="300" ItemsSource="{Binding Kantone}" >
             </ListBox>
 
@@ -113,7 +113,7 @@
 
         <Border Margin="10" BorderBrush="{StaticResource DefaultBorderBrush}" BorderThickness="1">
             <Grid  DockPanel.Dock="Right">
-                <Views:AbstimmungsStatsView x:Name="InfoPane" AktivKantone="{Binding Kantone/}"/>
+                <Views:AbstimmungsStatsView x:Name="InfoPane" AktivKantone="{Binding Kantone}"/>
             </Grid>
         </Border>
     </DockPanel>

@@ -55,7 +55,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="data\Kanton.cs" />
+    <Compile Include="LargeCircleConverter.cs" />
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="ViewModel\AbstimmungsStats.cs" />
     <Compile Include="ViewModel\AbstimmungsViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="Views\AbstimmungsStatsView.xaml.cs">

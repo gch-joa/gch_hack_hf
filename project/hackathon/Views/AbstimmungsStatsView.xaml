@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:Data="clr-namespace:hackathon.ViewModel"
+             xmlns:Data="clr-namespace:hackathon.ViewModel" xmlns:Hackathon="clr-namespace:hackathon"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.Resources>
@@ -19,16 +19,21 @@
                         <Path Grid.Row="0" Margin="0,0,0,0" Fill="Green">
                             <Path.Data>
                                 <PathGeometry>
-                                    <PathFigure IsClosed="True" IsFilled="True" StartPoint="50,50">
+                                    <PathFigure IsClosed="True" IsFilled="True" StartPoint="0,0">
                                         <PathSegmentCollection>
-                                            <LineSegment Point="100,50"></LineSegment>
-                                            <ArcSegment IsLargeArc="False" Size="50,50" SweepDirection="Clockwise"
+                                            <LineSegment Point="50,0"></LineSegment>
+                                            <ArcSegment IsLargeArc="False" Size="50,50" SweepDirection="Clockwise" 
                                                         Point="{Binding AnzahlJaInCoordinates}" ></ArcSegment>
                                         </PathSegmentCollection>
                                     </PathFigure>
                                 </PathGeometry>
                             </Path.Data>
-                            <!--<Path.Data>M50,50 L0,50 A50,50 0 0 1 100,50 z</Path.Data>-->
+                            <Path.RenderTransform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="-90"></RotateTransform>
+                                    <TranslateTransform X="50" Y="50"></TranslateTransform>
+                                </TransformGroup>
+                            </Path.RenderTransform>
                         </Path>
                         <!--<TextBlock Grid.Row="0" Text="{Binding AnzahlNein}"></TextBlock>-->
                 <TextBlock Grid.Row="1" Text="{Binding AnzahlJa}"></TextBlock>

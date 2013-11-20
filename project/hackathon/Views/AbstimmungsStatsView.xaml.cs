@@ -24,7 +24,7 @@ namespace hackathon.Views
 	public partial class AbstimmungsStatsView : UserControl
 	{
 		public static readonly DependencyProperty AktivKantoneProperty =
-			DependencyProperty.Register("AktivKantone", typeof(Kanton), typeof(AbstimmungsStatsView), new FrameworkPropertyMetadata(null));
+			DependencyProperty.Register("AktivKantone", typeof(Kanton), typeof(AbstimmungsStatsView));
 
 		public AbstimmungsStatsView()
 		{

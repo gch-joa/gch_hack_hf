@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Windows;
 using System.Windows.Data;
 
 using hackathon.Annotations;
@@ -47,6 +46,7 @@ namespace hackathon.ViewModel
 			Statistics = new CollectionView(this._stats);
 		}
 
+		public object Kantone { get; set; }
 		public Kanton AktivKanton
 		{
 			get
@@ -84,49 +84,6 @@ namespace hackathon.ViewModel
 			if (handler != null)
 			{
 				handler(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-
-	public class AbstimmungsStats
-	{
-		private double _anzahlNein;
-
-		private double _anzahlJa;
-
-		public double AnzahlNein
-		{
-			get
-			{
-				return this._anzahlNein;
-			}
-			set
-			{
-				this._anzahlNein = value;
-			}
-		}
-
-		public double AnzahlJa
-		{
-			get
-			{
-				return this._anzahlJa;
-			}
-			set
-			{
-				this._anzahlJa = value;
-			}
-		}
-
-		public Point AnzahlJaInCoordinates
-		{
-			get
-			{
-				double angle = 360 * (this._anzahlJa / 100);
-				double x = 50 + 50 * Math.Cos(angle);
-				double y = 50 + 50 * Math.Sign(angle);
-
-				return new Point(x, y);
 			}
 		}
 	}
