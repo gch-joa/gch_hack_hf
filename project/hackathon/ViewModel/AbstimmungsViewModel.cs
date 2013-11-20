@@ -14,7 +14,7 @@ namespace hackathon.ViewModel
 	{
 		private Abstimmung _abstimmung;
 
-		private List<AbstimmungsStats> _stats;
+		private List<AbstimmungsStats> _stats = new List<AbstimmungsStats>();
 
 		public AbstimmungsViewModel()
 		{
@@ -24,8 +24,8 @@ namespace hackathon.ViewModel
 			this._abstimmung.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 34);
 			this._abstimmung.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 65.3);
 
+			this.CaclStats();
 			Statistics = new CollectionView(this._stats);
-			//this.CaclStats();
 		}
 
 		public ICollectionView Statistics;
