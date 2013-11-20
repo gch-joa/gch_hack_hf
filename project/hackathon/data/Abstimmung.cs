@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace hackathon.data
 {
@@ -49,6 +50,8 @@ namespace hackathon.data
         {
             get { return JaStimmen > NeinStimmen; }
         }
+
+        public IDictionary<Kanton, int> KantonJaStimmen { get; set; }
     }
 
     public enum AbstimmungTyp

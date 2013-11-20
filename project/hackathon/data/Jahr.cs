@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace hackathon.data
 {
@@ -10,5 +11,8 @@ namespace hackathon.data
         }
 
         public DateTime Year { get; set; }
+
+        public IList<Abstimmung> Abstimmungen { get; set; }
+        public IList<Event> Events { get; set; } 
     }
 }
