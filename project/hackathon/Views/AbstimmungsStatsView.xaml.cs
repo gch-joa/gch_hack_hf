@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using hackathon.ViewModel;
+using hackathon.data;
 
 namespace hackathon.Views
 {
@@ -22,12 +23,26 @@ namespace hackathon.Views
 	/// </summary>
 	public partial class AbstimmungsStatsView : UserControl
 	{
-		public DependencyProperty Kantone;
+		public static readonly DependencyProperty AktivKantoneProperty =
+			DependencyProperty.Register("AktivKantone", typeof(Kanton), typeof(AbstimmungsStatsView), new FrameworkPropertyMetadata(null));
 
 		public AbstimmungsStatsView()
 		{
 			InitializeComponent();
 			DataContext = new AbstimmungsViewModel();
 		}
+
+		public Kanton AktivKantone
+		{
+			get
+			{
+				return (Kanton)GetValue(AktivKantoneProperty);
+			}
+			set
+			{
+				SetValue(AktivKantoneProperty, value);
+			}
+		}
+
 	}
 }
