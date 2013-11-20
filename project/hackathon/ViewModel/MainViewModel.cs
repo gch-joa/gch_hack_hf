@@ -16,6 +16,10 @@ namespace hackathon.ViewModel
 	{
 		private ICollectionView _cantons;
 
+		private string _minYear;
+
+		private string _maxYear;
+
 		public MainViewModel()
 		{
 			List<Kanton> c = new List<Kanton>
@@ -36,6 +40,32 @@ namespace hackathon.ViewModel
 			set
 			{
 				this._cantons = value;
+			}
+		}
+
+		public string MaxYear
+		{
+			get
+			{
+				return this._maxYear;
+			}
+			set
+			{
+				this._maxYear = value;
+				this.OnPropertyChanged()
+			}
+		}
+
+		public string MinYear
+		{
+			get
+			{
+				return this._minYear;
+			}
+			private set
+			{
+				this._minYear = value;
+				this.OnPropertyChanged();
 			}
 		}
 

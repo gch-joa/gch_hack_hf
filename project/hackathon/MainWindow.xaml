@@ -4,8 +4,13 @@
         Title="Abstimmungs Analyse" Height="350" Width="600">
     <DockPanel>
         <Grid DockPanel.Dock="Top" Height="40" Margin="5,5,5,0">
-            <Slider x:Name="TopSlider"  
-                Minimum="1999" Maximum="2012" TickPlacement="Both" TickFrequency="1" Value="2005" IsSnapToTickEnabled="True"   
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="50"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Slider x:Name="TopSlider"  Grid.Column="1"
+                Minimum="{Binding MinYear}" Maximum="{Binding MayYear}" TickPlacement="Both" TickFrequency="1" Value="2005" IsSnapToTickEnabled="True"   
                 VerticalContentAlignment="Center">
             </Slider>
         </Grid>
