@@ -12,30 +12,42 @@ namespace hackathon.ViewModel
 {
 	class AbstimmungsViewModel : INotifyPropertyChanged
 	{
-		private Abstimmung _abstimmung;
+		private IList<Abstimmung> _abstimmung = new List<Abstimmung>();
 
 		private List<AbstimmungsStats> _stats = new List<AbstimmungsStats>();
 
 		public AbstimmungsViewModel()
 		{
-			this._abstimmung = new Abstimmung(AbstimmungTyp.Initiativ, "test", 1, DateTime.Now, 1000, 800, 100, 50, 500);
-			this._abstimmung.KantonJaStimmen = new Dictionary<Kanton, double>();
-			this._abstimmung.KantonJaStimmen.Add(new Kanton("Bern","BE"), 30);
-			this._abstimmung.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 34);
-			this._abstimmung.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 65.3);
+			var test01 = new Abstimmung(AbstimmungTyp.Initiativ, "test01", 1, DateTime.Now, 1000, 800, 100, 50, 500);
+			test01.KantonJaStimmen = new Dictionary<Kanton, double>();
+			test01.KantonJaStimmen.Add(new Kanton("Bern", "BE"), 30);
+			test01.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 34);
+			test01.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 65.3);
+			this._abstimmung.Add(test01);
+
+			var test02= new Abstimmung(AbstimmungTyp.Initiativ, "test02", 1, DateTime.Now, 1000, 800, 100, 50, 500);
+			test02.KantonJaStimmen = new Dictionary<Kanton, double>();
+			test02.KantonJaStimmen.Add(new Kanton("Bern", "BE"), 45);
+			test02.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 87);
+			test02.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 34);
+			this._abstimmung.Add(test02);
 
 			this.CaclStats();
 			Statistics = new CollectionView(this._stats);
 		}
 
-		public ICollectionView Statistics;
+		public ICollectionView Statistics { get; private set; }
 
 		private void CaclStats()
 		{
-			AbstimmungsStats stat = new AbstimmungsStats();
-			stat.AnzahlJa = this._abstimmung.KantonJaStimmen.Sum(p => p.Value);
-			stat.AnzahlNein = 100 - stat.AnzahlJa;
-			this._stats.Add(stat);
+			foreach (var ab in this._abstimmung)
+			{
+				AbstimmungsStats stat = new AbstimmungsStats();
+				stat.AnzahlJa = ab.KantonJaStimmen.Average(p => p.Value);
+				stat.AnzahlNein = 100 - stat.AnzahlJa;
+				this._stats.Add(stat);
+				
+			}
 		}
 
 		public event PropertyChangedEventHandler PropertyChanged;
