@@ -23,6 +23,7 @@ namespace hackathon.Views
 		public AbstimmungsStatsView()
 		{
 			InitializeComponent();
+			DataContext = new AbstimmungsStatsView();
 		}
 	}
 }

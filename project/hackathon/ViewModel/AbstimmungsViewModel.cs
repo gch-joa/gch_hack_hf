@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Data;
 
 using hackathon.Annotations;
 using hackathon.data;
@@ -15,19 +14,7 @@ namespace hackathon.ViewModel
 	{
 		private Abstimmung _abstimmung;
 
-		private AbstimmungsStats _stats;
-
-		public AbstimmungsStats Statistics
-		{
-			get
-			{
-				return this._stats;
-			}
-			private set
-			{
-				this._stats = value;
-			}
-		}
+		private List<AbstimmungsStats> _stats;
 
 		public AbstimmungsViewModel()
 		{
@@ -37,14 +24,18 @@ namespace hackathon.ViewModel
 			this._abstimmung.KantonJaStimmen.Add(new Kanton("Zürich", "ZH"), 34);
 			this._abstimmung.KantonJaStimmen.Add(new Kanton("Aarau", "AG"), 65.3);
 
+			Statistics = new CollectionView(this._stats);
+			//this.CaclStats();
 		}
 
+		public ICollectionView Statistics;
 
 		private void CaclStats()
 		{
-			AbstimmungsStats stats = new AbstimmungsStats();
-			stats.AnzahlJa = this._abstimmung.KantonJaStimmen.Sum(p => p.Value);
-			stats.AnzahlNein = 100 - stats.AnzahlJa;
+			AbstimmungsStats stat = new AbstimmungsStats();
+			stat.AnzahlJa = this._abstimmung.KantonJaStimmen.Sum(p => p.Value);
+			stat.AnzahlNein = 100 - stat.AnzahlJa;
+			this._stats.Add(stat);
 		}
 
 		public event PropertyChangedEventHandler PropertyChanged;
