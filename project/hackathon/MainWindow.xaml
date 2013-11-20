@@ -7,7 +7,7 @@
         <Style TargetType="{x:Type ListBox}">
             <Style.Resources>
                 <DataTemplate DataType="{x:Type data:Kanton}">
-                    <Grid x:Name="DataGrid">
+                    <Grid x:Name="DataGrid" RenderTransformOrigin="0.5,0.5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition Width="*" />
@@ -16,19 +16,21 @@
                                Source="{Binding WappenUrl}" RenderOptions.BitmapScalingMode="HighQuality" />
                         <TextBlock Grid.Column="1" FontSize="20" Margin="10" Text="{Binding Name}"></TextBlock>
                         <Grid.RenderTransform>
-                            <ScaleTransform ScaleX="1.0" ScaleY="1.0"></ScaleTransform>
+                            <ScaleTransform ScaleX="1.0" ScaleY="1.0" CenterX="150" CenterY="50"></ScaleTransform>
+            
                         </Grid.RenderTransform>
+                        
                     </Grid>
                     <DataTemplate.Triggers>
                         <EventTrigger RoutedEvent="Mouse.MouseEnter">
                             <BeginStoryboard>
                                 <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleX">
-                                    <DoubleAnimation To="1.15" Duration="0:0:0.2" />
+                                    <DoubleAnimation To="1.1" Duration="0:0:0.2" />
                                 </Storyboard>
                             </BeginStoryboard>
                             <BeginStoryboard>
                             <Storyboard TargetName="DataGrid" TargetProperty="RenderTransform.ScaleY">
-                                    <DoubleAnimation To="1.15" Duration="0:0:0.2" />
+                                    <DoubleAnimation To="1.1" Duration="0:0:0.2" />
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
