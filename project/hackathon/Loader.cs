@@ -90,13 +90,13 @@ namespace hackathon
             return AbstimmungTyp.Unknown;
         }
 
-        public List<string[]> parseCSV(string path)
+        private List<string[]> parseCSV(string path)
         {
             List<string[]> parsedData = new List<string[]>();
 
             try
             {
-                using (StreamReader readFile = new StreamReader(path))
+                using (StreamReader readFile = new StreamReader(path, true))
                 {
                     string line;
                     string[] row;
