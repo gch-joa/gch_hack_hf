@@ -1,43 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-
 using hackathon.ViewModel;
 using hackathon.data;
 
 namespace hackathon
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    ///     Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-	        DataContext = new MainViewModel();
+            DataContext = new MainViewModel();
         }
 
-	    private void KantonInfo_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
-	    {
-		    this.InfoPane.Abstimmungen = ((MainViewModel)DataContext).Abstimmungen;
-		    this.InfoPane.AktivKantone = (Kanton)this.KantonInfo.Items.CurrentItem;
-	    }
+        private void KantonInfo_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            InfoPane.Abstimmungen = ((MainViewModel) DataContext).Abstimmungen;
+            InfoPane.AktivKantone = (Kanton) KantonInfo.Items.CurrentItem;
+        }
 
         private void JahrInfo_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            this.InfoPane.AktivJahr = int.Parse((string)this.YearInfo.Items.CurrentItem);
+            InfoPane.AktivJahr = int.Parse((string) YearInfo.Items.CurrentItem);
         }
     }
 }

@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using hackathon.data;
 
@@ -11,12 +9,12 @@ namespace hackathon
 {
     public class Loader
     {
-        private readonly IList<Kanton> _kantone= new List<Kanton>();
+        private readonly IList<Kanton> _kantone = new List<Kanton>();
 
         public IList<Abstimmung> Load()
         {
-            var abstimmungen = parseCSV("data/abstimmungen.csv");
-            var kantonwerte = parseCSV("data/jastimmen.csv");
+            List<string[]> abstimmungen = parseCSV("data/abstimmungen.csv");
+            List<string[]> kantonwerte = parseCSV("data/jastimmen.csv");
 
             var abstimmunglist = new Dictionary<int, Abstimmung>();
             foreach (var line in abstimmungen)
@@ -36,7 +34,7 @@ namespace hackathon
                 }
             }
 
-            string[] nummern = new string[kantonwerte[0].Count()];
+            var nummern = new string[kantonwerte[0].Count()];
             foreach (var line in kantonwerte)
             {
                 if (line[0].Equals("Kanton"))
@@ -45,14 +43,14 @@ namespace hackathon
                 }
                 else
                 {
-                    var currentKanton = new Kanton(line[0],line[1]);
+                    var currentKanton = new Kanton(line[0], line[1]);
                     if (!_kantone.Contains(currentKanton))
                     {
                         _kantone.Add(currentKanton);
                     }
                     for (int i = 2; i < nummern.Count(); i++)
                     {
-                        var s = nummern[i];
+                        string s = nummern[i];
                         try
                         {
                             abstimmunglist[int.Parse(s)].KantonJaStimmen.Add(currentKanton, double.Parse(line[i]));
@@ -75,29 +73,29 @@ namespace hackathon
 
         private DateTime MakeDatum(string s)
         {
-            var tag = s.Substring(0, 2);
-            var monat = s.Substring(3, 2);
-            var jahr = s.Substring(6, 4);
+            string tag = s.Substring(0, 2);
+            string monat = s.Substring(3, 2);
+            string jahr = s.Substring(6, 4);
 
             return new DateTime(int.Parse(jahr), int.Parse(monat), int.Parse(tag));
         }
 
         private AbstimmungTyp ConvertTyp(string type)
         {
-            if(type.Equals("Fak.")) return AbstimmungTyp.Fakultativ;
-            if(type.Equals("I.")) return AbstimmungTyp.Initiativ;
-            if(type.Equals("Obl.")) return AbstimmungTyp.Obligatorisch;
-            if(type.Equals("GE")) return AbstimmungTyp.Gegenentwurf;
+            if (type.Equals("Fak.")) return AbstimmungTyp.Fakultativ;
+            if (type.Equals("I.")) return AbstimmungTyp.Initiativ;
+            if (type.Equals("Obl.")) return AbstimmungTyp.Obligatorisch;
+            if (type.Equals("GE")) return AbstimmungTyp.Gegenentwurf;
             return AbstimmungTyp.Unknown;
         }
 
         private List<string[]> parseCSV(string path)
         {
-            List<string[]> parsedData = new List<string[]>();
+            var parsedData = new List<string[]>();
 
             try
             {
-                using (StreamReader readFile = new StreamReader(path, true))
+                using (var readFile = new StreamReader(path, true))
                 {
                     string line;
                     string[] row;
@@ -116,7 +114,5 @@ namespace hackathon
 
             return parsedData;
         }
-
-        
     }
 }

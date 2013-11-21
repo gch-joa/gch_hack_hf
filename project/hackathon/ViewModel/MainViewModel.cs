@@ -3,120 +3,94 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Data;
-using System.Windows.Documents;
-
 using hackathon.Annotations;
 using hackathon.data;
 
 namespace hackathon.ViewModel
 {
-	class MainViewModel : INotifyPropertyChanged
-	{
-		private ICollectionView _cantons;
+    internal class MainViewModel : INotifyPropertyChanged
+    {
+        private IList<Abstimmung> _abstimmungen;
+        private int _aktivYear;
+        private ICollectionView _cantons;
 
-		private int _minYear;
+        private int _maxYear;
+        private int _minYear;
 
-		private int _maxYear;
+        public MainViewModel()
+        {
+            var loader = new Loader();
+            _abstimmungen = loader.Load();
 
-		private int _aktivYear;
+            IEnumerable<Abstimmung> subList = _abstimmungen.Where(i => i.KantonJaStimmen.Count > 0);
+            MaxYear = Convert.ToInt16(subList.Max(p => p.Datum).ToString("yyyy"));
+            MinYear = Convert.ToInt16(subList.Min(p => p.Datum).ToString("yyyy"));
+            Jahre = subList.Select(p => p.Datum.ToString("yyyy")).Distinct().ToList();
 
-		private IList<Abstimmung> _abstimmungen;
+            _cantons = new ListCollectionView(loader.GetKantone().ToList());
+            _cantons.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));
+            _aktivYear = MaxYear;
+        }
 
-	    public IList<string> Jahre { get; set; }
+        public IList<string> Jahre { get; set; }
 
-		public MainViewModel()
-		{
-			var loader = new Loader();
-			_abstimmungen = loader.Load();
+        public IList<Abstimmung> Abstimmungen
+        {
+            get { return _abstimmungen; }
+            set { _abstimmungen = value; }
+        }
 
-			var subList = _abstimmungen.Where(i => i.KantonJaStimmen.Count > 0);
-			this.MaxYear = Convert.ToInt16(subList.Max(p => p.Datum).ToString("yyyy"));
-			this.MinYear = Convert.ToInt16(subList.Min(p => p.Datum).ToString("yyyy"));
-		    Jahre = subList.Select(p => p.Datum.ToString("yyyy")).Distinct().ToList();
+        public int AktivYear
+        {
+            get { return _aktivYear; }
+            set
+            {
+                _aktivYear = value;
+                OnPropertyChanged();
+            }
+        }
 
-			_cantons = new ListCollectionView(loader.GetKantone().ToList());
-			_cantons.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));
-			_aktivYear = this.MaxYear;
-		}
+        public ICollectionView Kantone
+        {
+            get { return _cantons; }
+            set { _cantons = value; }
+        }
 
-		public IList<Abstimmung> Abstimmungen
-		{
-			get
-			{
-				return this._abstimmungen;
-			}
-			set
-			{
-				this._abstimmungen = value;
-			}
-		}
+        public int MaxYear
+        {
+            get { return _maxYear; }
+            private set
+            {
+                _maxYear = value;
+                OnPropertyChanged();
+            }
+        }
 
-		public int AktivYear
-		{
-			get
-			{
-				return this._aktivYear;
-			}
-			set
-			{
-				this._aktivYear = value;
-				this.OnPropertyChanged();
-			}
-		}
+        public int MinYear
+        {
+            get { return _minYear; }
+            private set
+            {
+                _minYear = value;
+                OnPropertyChanged();
+            }
+        }
 
-		public ICollectionView Kantone
-		{
-			get
-			{
-				return this._cantons;
-			}
-			set
-			{
-				this._cantons = value;
-			}
-		}
+        #region property changed
 
-		public int MaxYear
-		{
-			get
-			{
-				return this._maxYear;
-			}
-			private set
-			{
-				this._maxYear = value;
-				this.OnPropertyChanged();
-			}
-		}
+        public event PropertyChangedEventHandler PropertyChanged;
 
-		public int MinYear
-		{
-			get
-			{
-				return this._minYear;
-			}
-			private set
-			{
-				this._minYear = value;
-				this.OnPropertyChanged();
-			}
-		}
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChangedEventHandler handler = PropertyChanged;
+            if (handler != null)
+            {
+                handler(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
 
-		#region property changed
-		public event PropertyChangedEventHandler PropertyChanged;
-
-		[NotifyPropertyChangedInvocator]
-		protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-		{
-			PropertyChangedEventHandler handler = PropertyChanged;
-			if (handler != null)
-			{
-				handler(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		#endregion
-	}
+        #endregion
+    }
 }
