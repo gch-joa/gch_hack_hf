@@ -9,6 +9,10 @@ namespace hackathon.ViewModel
 
 		private double _anzahlJa;
 
+		private bool _userLargeArc;
+
+		private string _name;
+
 		public double AnzahlNein
 		{
 			get
@@ -45,6 +49,30 @@ namespace hackathon.ViewModel
 				double y = 50 * Math.Sin(angle);
 
 				return new Point(x, y);
+			}
+		}
+
+		public bool UseLargeArc
+		{
+			get
+			{
+				return this._userLargeArc;
+			}
+			set
+			{
+				this._userLargeArc = value;
+			}
+		}
+
+		public string Name
+		{
+			get
+			{
+				return this._name;
+			}
+			set
+			{
+				this._name = value;
 			}
 		}
 	}

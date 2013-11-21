@@ -10,19 +10,23 @@
         <Style TargetType="{x:Type ListView}">
             <Style.Resources>
                 <DataTemplate DataType="{x:Type Data:AbstimmungsStats}">
-            <Grid Margin="5,5,5,5" Width="100">
+            <Grid Margin="5,5,5,5" Width="200">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="60"></RowDefinition>
                 </Grid.RowDefinitions>
-                        <Ellipse Grid.Row="0"  Fill="Red" Width="100" Height="100"></Ellipse>
+                        <Ellipse Grid.Row="0"  Fill="Red" Width="100" Height="100" >
+                            <Ellipse.RenderTransform>
+                                <TranslateTransform Y="0" X="0"></TranslateTransform>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
                         <Path Grid.Row="0" Margin="0,0,0,0" Fill="Green">
                             <Path.Data>
                                 <PathGeometry>
                                     <PathFigure IsClosed="True" IsFilled="True" StartPoint="0,0">
                                         <PathSegmentCollection>
                                             <LineSegment Point="50,0"></LineSegment>
-                                            <ArcSegment IsLargeArc="False" Size="50,50" SweepDirection="Clockwise" 
+                                            <ArcSegment IsLargeArc="{Binding UseLargeArc}" Size="50,50" SweepDirection="Clockwise" 
                                                         Point="{Binding AnzahlJaInCoordinates}" ></ArcSegment>
                                         </PathSegmentCollection>
                                     </PathFigure>
@@ -31,19 +35,19 @@
                             <Path.RenderTransform>
                                 <TransformGroup>
                                     <RotateTransform Angle="-90"></RotateTransform>
-                                    <TranslateTransform X="50" Y="50"></TranslateTransform>
+                                    <TranslateTransform X="100" Y="50"></TranslateTransform>
                                 </TransformGroup>
                             </Path.RenderTransform>
                         </Path>
                         <!--<TextBlock Grid.Row="0" Text="{Binding AnzahlNein}"></TextBlock>-->
-                <TextBlock Grid.Row="1" Text="{Binding AnzahlJa}"></TextBlock>
+                <TextBlock Grid.Row="1" Text="{Binding Name}" TextWrapping="Wrap"></TextBlock>
             </Grid>
         </DataTemplate>
             </Style.Resources>
         </Style>
 
     </UserControl.Resources>
-    <Grid>
+    <Grid x:Name="InfoContainer">
         <Grid.RowDefinitions>
             <RowDefinition Height="20" />
             <RowDefinition Height="*"></RowDefinition>
@@ -52,7 +56,7 @@
         <ListView Grid.Row="1" ItemsSource="{Binding Statistics}">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <WrapPanel IsItemsHost="True" />
+                    <WrapPanel IsItemsHost="True" Width="600"/>
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
         </ListView>
