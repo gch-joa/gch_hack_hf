@@ -21,17 +21,7 @@ namespace hackathon.Views
             DataContext = new AbstimmungsViewModel();
         }
 
-<<<<<<< HEAD
-        public int AktivJahr
-        {
-            get { return (int) GetValue(AktivKantoneProperty); }
-            set
-            {
-                SetValue(AktivKantoneProperty, value);
-                ((AbstimmungsViewModel) DataContext).AktiveJahr = value;
-            }
-        }
-=======
+
 		public int AktivJahr
 		{
 			get
@@ -43,7 +33,6 @@ namespace hackathon.Views
 				((AbstimmungsViewModel)DataContext).AktiveJahr = value;
 			}
 		}
->>>>>>> b03e83c3689f7cc7669e11bfb2b6197636ae438d
 
         public Kanton AktivKantone
         {
