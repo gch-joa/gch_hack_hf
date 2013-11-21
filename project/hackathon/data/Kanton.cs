@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace hackathon.data
 {
@@ -18,16 +14,19 @@ namespace hackathon.data
 
         public string Kuerzel { get; set; }
 
-        public string WappenUrl { get { return string.Format("data/wappen/{0}.png", Kuerzel.ToLowerInvariant()); } }
-
-        public bool Equals(Kanton other)
+        public string WappenUrl
         {
-            return other.Name.Equals(Name);
+            get { return string.Format("data/wappen/{0}.png", Kuerzel.ToLowerInvariant()); }
         }
 
         public int CompareTo(Kanton other)
         {
             return String.Compare(other.Name, Name, StringComparison.Ordinal);
+        }
+
+        public bool Equals(Kanton other)
+        {
+            return other.Name.Equals(Name);
         }
     }
 }

@@ -3,77 +3,35 @@ using System.Windows;
 
 namespace hackathon.ViewModel
 {
-	public class AbstimmungsStats
-	{
-		private double _anzahlNein;
+    public class AbstimmungsStats
+    {
+        private double _anzahlJa;
 
-		private double _anzahlJa;
+        public double AnzahlNein { get; set; }
 
-		private bool _userLargeArc;
+        public double AnzahlJa
+        {
+            get { return _anzahlJa; }
+            set { _anzahlJa = value; }
+        }
 
-		private string _name;
+        public Point AnzahlJaInCoordinates
+        {
+            get
+            {
+                // in case we have 100%, the circle is not filled, since start and end point are the same
+                double ja = Math.Abs(_anzahlJa - 100) > 0.01 ? _anzahlJa : 99.99;
 
-		public double AnzahlNein
-		{
-			get
-			{
-				return this._anzahlNein;
-			}
-			set
-			{
-				this._anzahlNein = value;
-			}
-		}
+                double angle = 2*Math.PI*(ja/100);
+                double x = 50*Math.Cos(angle);
+                double y = 50*Math.Sin(angle);
 
-		public double AnzahlJa
-		{
-			get
-			{
-				return this._anzahlJa;
-			}
-			set
-			{
-				this._anzahlJa = value;
-			}
-		}
+                return new Point(x, y);
+            }
+        }
 
-		public Point AnzahlJaInCoordinates
-		{
-			get
-			{
-				// in case we have 100%, the circle is not filled, since start and end point are the same
-				double ja = Math.Abs(this._anzahlJa - 100) > 0.01 ? this._anzahlJa : 99.99;
+        public bool UseLargeArc { get; set; }
 
-				double angle = 2 * Math.PI * (ja / 100);
-				double x = 50 * Math.Cos(angle);
-				double y = 50 * Math.Sin(angle);
-
-				return new Point(x, y);
-			}
-		}
-
-		public bool UseLargeArc
-		{
-			get
-			{
-				return this._userLargeArc;
-			}
-			set
-			{
-				this._userLargeArc = value;
-			}
-		}
-
-		public string Name
-		{
-			get
-			{
-				return this._name;
-			}
-			set
-			{
-				this._name = value;
-			}
-		}
-	}
+        public string Name { get; set; }
+    }
 }
