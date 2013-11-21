@@ -58,11 +58,7 @@
         <ListView Grid.Row="1" ItemsSource="{Binding Statistics}">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
-<<<<<<< HEAD
                     <WrapPanel IsItemsHost="True" Width="700"/>
-=======
-                    <WrapPanel IsItemsHost="True" Width="600" />
->>>>>>> 9801c1146dc8314cf123a88876d0ecf2eb8d59bf
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
         </ListView>
