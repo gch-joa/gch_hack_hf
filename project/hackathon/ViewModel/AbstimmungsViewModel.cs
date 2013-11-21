@@ -44,6 +44,7 @@ namespace hackathon.ViewModel
 			this._abstimmungen.Add(test03);
 
 			this._aktivKanton = new Kanton("Bern", "BE");
+			this._aktivJahr = 2012;
 
 			this.CaclStats();
 			Statistics = new CollectionView(this._stats);
@@ -87,6 +88,7 @@ namespace hackathon.ViewModel
 			set
 			{
 				this._aktivJahr =value;
+				this.CaclStats();
 			}
 		}
 
@@ -95,9 +97,8 @@ namespace hackathon.ViewModel
 			if (this._aktivKanton == null) return;
 
 			this._stats.Clear();
-			foreach (var ab in this._abstimmungen.Where(i => i.KantonJaStimmen.Count > 0))
+			foreach (var ab in this._abstimmungen.Where(i => i.KantonJaStimmen.Count > 0 & i.Datum.Year == this._aktivJahr))
 			{
-				
 				AbstimmungsStats stat = new AbstimmungsStats();
 				stat.AnzahlJa = ab.KantonJaStimmen.Where(i => i.Key.Equals(this._aktivKanton)).Average(p => p.Value);
 				stat.AnzahlNein = 100 - stat.AnzahlJa;
