@@ -34,5 +34,10 @@ namespace hackathon
 		    this.InfoPane.Abstimmungen = ((MainViewModel)DataContext).Abstimmungen;
 		    this.InfoPane.AktivKantone = (Kanton)this.KantonInfo.Items.CurrentItem;
 	    }
+
+        private void JahrInfo_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            //this.InfoPane.AktivJahr = ()
+        }
     }
 }
