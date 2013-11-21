@@ -18,6 +18,8 @@ namespace hackathon.ViewModel
 
 		private Kanton _aktivKanton;
 
+		private int _aktivJahr;
+
 		public AbstimmungsViewModel( )
 		{
 			var test01 = new Abstimmung(AbstimmungTyp.Initiativ, "test01", 1, DateTime.Now, 1000, 800, 100, 50, 500);
@@ -73,6 +75,18 @@ namespace hackathon.ViewModel
 			set
 			{
 				this._abstimmungen = value;
+			}
+		}
+
+		public int AktiveJahr
+		{
+			get
+			{
+				return this._aktivJahr;
+			}
+			set
+			{
+				this._aktivJahr =value;
 			}
 		}
 
