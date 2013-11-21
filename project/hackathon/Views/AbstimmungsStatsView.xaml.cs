@@ -14,12 +14,8 @@ namespace hackathon.Views
     {
         public static readonly DependencyProperty AktivKantoneProperty =
             DependencyProperty.Register("AktivKantone", typeof (Kanton), typeof (AbstimmungsStatsView),
-                                        new PropertyMetadata(null, PropertyChangedCallback));
+                                        new PropertyMetadata(null));
 
-        private static void PropertyChangedCallback(DependencyObject dependencyObject, DependencyPropertyChangedEventArgs dependencyPropertyChangedEventArgs)
-        {
-            throw new NotImplementedException();
-        }
 
         public AbstimmungsStatsView()
         {
