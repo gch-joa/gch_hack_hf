@@ -6,11 +6,12 @@
         FontStretch="ExtraExpanded">
     <Window.Resources>
         <Style TargetType="{x:Type ListBox}">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
             <Style.Resources>
                 <DataTemplate DataType="{x:Type data:Kanton}">
                     <Border BorderThickness="0,0,0,0.1" BorderBrush="Gray">
                         <Grid Height="50" x:Name="DataGrid" RenderTransformOrigin="0.5,0.5"
-                              Width="{Binding Width, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListBox}}}">
+                              >
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="50" />
                                 <ColumnDefinition Width="*" />
@@ -31,7 +32,8 @@
                         <Trigger Property="IsMouseOver" Value="True" SourceName="DataGrid">
                             <Setter Property="Background" TargetName="DataGrid">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="data/hover_bg.png" />
+                                    <!--<ImageBrush ImageSource="data/hover_bg.png" />-->
+                                    #88000000
                                 </Setter.Value>
                             </Setter>
                         </Trigger>
@@ -177,6 +179,6 @@
 
         
 
-        <Views:AbstimmungsStatsView x:Name="InfoPane" AktivKantone="{Binding Kantone}" Grid.Column="2" Grid.RowSpan="2" Grid.Row="0" Margin="10"/>
+        <Views:AbstimmungsStatsView x:Name="InfoPane" AktivKantone="{Binding Kantone}" Grid.Column="2" Grid.RowSpan="2" Grid.Row="0"/>
     </Grid>
 </Window>

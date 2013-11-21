@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using hackathon.ViewModel;
@@ -13,7 +14,12 @@ namespace hackathon.Views
     {
         public static readonly DependencyProperty AktivKantoneProperty =
             DependencyProperty.Register("AktivKantone", typeof (Kanton), typeof (AbstimmungsStatsView),
-                                        new PropertyMetadata(null));
+                                        new PropertyMetadata(null, PropertyChangedCallback));
+
+        private static void PropertyChangedCallback(DependencyObject dependencyObject, DependencyPropertyChangedEventArgs dependencyPropertyChangedEventArgs)
+        {
+            throw new NotImplementedException();
+        }
 
         public AbstimmungsStatsView()
         {

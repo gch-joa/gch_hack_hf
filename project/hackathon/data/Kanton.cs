@@ -6,7 +6,7 @@ namespace hackathon.data
     {
         public Kanton(string name, string kuerzel)
         {
-            Name = name;
+            Name = name.ToLower();
             Kuerzel = kuerzel;
         }
 

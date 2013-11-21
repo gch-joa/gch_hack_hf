@@ -51,14 +51,15 @@
     </UserControl.Resources>
     <Grid x:Name="InfoContainer">
         <Grid.RowDefinitions>
-            <RowDefinition Height="20" />
+            <RowDefinition Height="70" />
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock Text="{Binding AktivKanton.Name, StringFormat='Statistik für {0}'}" TextAlignment="Center"></TextBlock>
-        <ListView Grid.Row="1" ItemsSource="{Binding Statistics}">
+        
+        <TextBlock Grid.Row="0" Margin="10" FontSize="40" Text="{Binding AktivKanton.Name, StringFormat='statistik für {0}'}" TextAlignment="Left"></TextBlock>
+        <ListView Grid.Row="1" ItemsSource="{Binding Statistics}" BorderThickness="0">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <WrapPanel IsItemsHost="True" Width="700"/>
+                    <WrapPanel IsItemsHost="True" Width="{Binding ActualWidth, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListView}}}"/>
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
         </ListView>
