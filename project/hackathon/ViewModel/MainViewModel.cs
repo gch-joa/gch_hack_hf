@@ -25,6 +25,8 @@ namespace hackathon.ViewModel
 
 		private IList<Abstimmung> _abstimmungen;
 
+	    public IList<string> Jahre { get; set; }
+
 		public MainViewModel()
 		{
 			var loader = new Loader();
@@ -33,6 +35,7 @@ namespace hackathon.ViewModel
 			var subList = _abstimmungen.Where(i => i.KantonJaStimmen.Count > 0);
 			this.MaxYear = Convert.ToInt16(subList.Max(p => p.Datum).ToString("yyyy"));
 			this.MinYear = Convert.ToInt16(subList.Min(p => p.Datum).ToString("yyyy"));
+		    Jahre = subList.Select(p => p.Datum.ToString("yyyy")).Distinct().ToList();
 
 			_cantons = new ListCollectionView(loader.GetKantone().ToList());
 			_cantons.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));
