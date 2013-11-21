@@ -52,11 +52,11 @@
             <RowDefinition Height="20" />
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock Text="{Binding AktivKanton.Name, StringFormat='Statistik für {0}'}"></TextBlock>
+        <TextBlock Text="{Binding AktivKanton.Name, StringFormat='Statistik für {0}'}" TextAlignment="Center"></TextBlock>
         <ListView Grid.Row="1" ItemsSource="{Binding Statistics}">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <WrapPanel IsItemsHost="True" Width="600"/>
+                    <WrapPanel IsItemsHost="True" Width="700"/>
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
         </ListView>

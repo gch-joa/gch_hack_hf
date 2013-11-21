@@ -106,6 +106,7 @@ namespace hackathon.ViewModel
 				stat.Name = ab.Beschreibung;
 				this._stats.Add(stat);
 			}
+			if (this.Statistics != null) this.Statistics.Refresh();
 		}
 
 		public event PropertyChangedEventHandler PropertyChanged;
