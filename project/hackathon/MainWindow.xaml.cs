@@ -37,7 +37,7 @@ namespace hackathon
 
         private void JahrInfo_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //this.InfoPane.AktivJahr = ()
+            this.InfoPane.AktivJahr = int.Parse((string)this.YearInfo.Items.CurrentItem);
         }
     }
 }
