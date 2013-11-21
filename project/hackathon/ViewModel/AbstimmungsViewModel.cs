@@ -58,6 +58,7 @@ namespace hackathon.ViewModel
 			{
 				this._aktivKanton = value;
 				this.CaclStats();
+				this.OnPropertyChanged();
 			}
 		}
 
