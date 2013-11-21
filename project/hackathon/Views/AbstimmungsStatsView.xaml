@@ -52,7 +52,7 @@
             <RowDefinition Height="20" />
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock Text="Abstimmungsstatistik"></TextBlock>
+        <TextBlock Text="{Binding AktivKanton.Name, StringFormat='Statistik für {0}'}"></TextBlock>
         <ListView Grid.Row="1" ItemsSource="{Binding Statistics}">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>

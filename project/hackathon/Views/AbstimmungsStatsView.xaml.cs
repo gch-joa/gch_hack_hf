@@ -33,6 +33,19 @@ namespace hackathon.Views
 			
 		}
 
+		public Kanton AktivJahr
+		{
+			get
+			{
+				return (Kanton)GetValue(AktivKantoneProperty);
+			}
+			set
+			{
+				SetValue(AktivKantoneProperty, value);
+				((AbstimmungsViewModel)DataContext).AktivKanton = value;
+			}
+		}
+
 		public Kanton AktivKantone
 		{
 			get
